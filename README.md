@@ -11,6 +11,17 @@ the "one copy, many engines" consumer pattern — is the same ODI architecture
 used across this workspace's other Fivetran demos; only the Terraform +
 GitHub Actions wrapper is new.
 
+**Status: first pass, built to be changed.** Aaron's own framing in that
+thread was "this starts very ground-up... gonna avoid formalizing too hard" —
+so treat the choices below (orders as the sample domain, this exact 6-workflow
+split, the specific consumers wired up) as a starting shape, not a spec. If a
+different data domain, a different consumer, or a different CI/CD split fits
+what you and the rest of `#se_demo_improvements` actually need, change it —
+the parts worth keeping are the PR-gated `terraform-plan`/`terraform-apply`
+pattern and the zero-credentials `dbt_run.yml` path, not the specific files.
+Feedback and changes welcome in `#se_demo_improvements` or as PRs/issues on
+this repo.
+
 ```
 ZONE 1 — SOURCE
   scripts/generate_data.py ("the app")
