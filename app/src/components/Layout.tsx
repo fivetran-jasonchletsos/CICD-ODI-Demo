@@ -142,6 +142,15 @@ export default function Layout() {
               applies Terraform by hand with no PR-gated infra workflow. This repo is the template
               to replicate; see the Runbook page.
             </p>
+            <a
+              href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/CICD-ODI-Demo-Setup-Guide.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block underline"
+              style={{ color: 'var(--terraform-bright)' }}
+            >
+              Setup guide (PDF) &rarr;
+            </a>
           </div>
         </div>
         <div className="border-t" style={{ borderColor: 'rgba(255,255,255,0.08)' }}>

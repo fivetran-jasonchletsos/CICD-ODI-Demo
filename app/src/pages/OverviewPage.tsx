@@ -79,6 +79,15 @@ export default function OverviewPage() {
         >
           Read the 5-step runbook
         </Link>
+        <a
+          href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/CICD-ODI-Demo-Setup-Guide.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-md px-4 py-2 text-sm font-semibold border"
+          style={{ borderColor: 'var(--hairline)', color: 'var(--ink)' }}
+        >
+          Setup guide (PDF)
+        </a>
       </div>
 
       <section className="mt-10">
