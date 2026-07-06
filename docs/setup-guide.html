@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>CICD-ODI-Demo — Setup Guide</title>
+<style>
+  @page { size: Letter; margin: 20mm 18mm 16mm 18mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: #111;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  h1 { font-size: 18pt; margin: 0 0 2mm 0; }
+  h2 { font-size: 12.5pt; margin: 7mm 0 2mm 0; border-bottom: 1px solid #999; padding-bottom: 1mm; }
+  .subtitle { color: #444; font-size: 10pt; margin: 0 0 5mm 0; }
+  .meta { color: #666; font-size: 8.5pt; margin-bottom: 6mm; }
+  .callout {
+    border: 1px solid #888;
+    border-left: 4px solid #333;
+    padding: 3mm 4mm;
+    margin: 3mm 0 5mm 0;
+    background: #f4f4f4;
+    font-size: 10pt;
+  }
+  .callout strong { display: block; margin-bottom: 1mm; }
+  ol.steps { padding-left: 0; margin: 0; counter-reset: step; list-style: none; }
+  ol.steps > li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 9mm;
+    margin-bottom: 4.5mm;
+    page-break-inside: avoid;
+  }
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0; top: 0;
+    width: 6mm; height: 6mm;
+    border: 1.5px solid #333;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 9.5pt;
+  }
+  .step-title { font-weight: 700; margin-bottom: 1mm; }
+  .step-body { color: #222; }
+  code, .code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 9pt;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 0.5px 3px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3mm 0 5mm 0;
+    font-size: 9pt;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 1.8mm 2.5mm;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #e5e5e5; font-weight: 700; }
+  .footer-note {
+    margin-top: 6mm;
+    padding-top: 3mm;
+    border-top: 1px solid #999;
+    font-size: 9pt;
+    color: #444;
+  }
+  .track {
+    font-size: 9.5pt;
+    color: #333;
+    margin: 1mm 0 4mm 0;
+  }
+</style>
+</head>
+<body>
+
+  <h1>CICD-ODI-Demo — Setup Guide</h1>
+  <p class="subtitle">Terraform + GitHub Actions CI/CD around an ODI/MDLS Fivetran + dbt demo</p>
+  <p class="meta">Repo: github.com/fivetran-jasonchletsos/CICD-ODI-Demo &nbsp;·&nbsp; Built for the #se_demo_improvements effort</p>
+
+  <div class="callout">
+    <strong>Do you need to edit the .tf files? No.</strong>
+    Every value that changes between SEs or accounts — bucket names, region, credentials,
+    org name, whether the Snowflake consumer is on — is a Terraform variable. You only fill
+    in <span class="code">terraform.tfvars</span> and set matching GitHub secrets. Editing
+    the <span class="code">.tf</span> files themselves is only needed if you want to change
+    the architecture, not to stand up this demo as it exists.
+  </div>
+
+  <h2>Zero-setup path</h2>
+  <p class="track">
+    Forking or cloning the repo is enough to see it working: <span class="code">dbt_run.yml</span>
+    and <span class="code">deploy.yml</span> already run green on push with no secrets configured,
+    because DuckDB and the committed data snapshots are the always-on path. GitHub Pages already
+    serves the frontend. Everything below is only for the live Fivetran/AWS path.
+  </p>
+
+  <h2>Live path — 7 steps</h2>
+  <ol class="steps">
+    <li>
+      <div class="step-title">Fork or clone the repo</div>
+      <div class="step-body">Nothing to configure yet.</div>
+    </li>
+    <li>
+      <div class="step-title">Copy <span class="code">infra/terraform.tfvars.example</span> &rarr; <span class="code">infra/terraform.tfvars</span></div>
+      <div class="step-body">Fill in your Fivetran API key/secret, an external-ID string you pick, and (only if using it) Snowflake account details. AWS region and bucket names can stay default or change here — still no <span class="code">.tf</span> file edits.</div>
+    </li>
+    <li>
+      <div class="step-title">Add the same values as GitHub repo secrets</div>
+      <div class="step-body">Settings &rarr; Secrets and variables &rarr; Actions. See the table below for the full list.</div>
+    </li>
+    <li>
+      <div class="step-title">Create a <span class="code">production</span> GitHub Environment</div>
+      <div class="step-body">Settings &rarr; Environments, with at least one required reviewer. This is what makes <span class="code">terraform-apply.yml</span> pause for a human click.</div>
+    </li>
+    <li>
+      <div class="step-title">Run <span class="code">bootstrap-mdls.yml</span> once</div>
+      <div class="step-body">Actions tab &rarr; Run workflow. Creates the Fivetran MDLS destination. Paste the printed id into <span class="code">terraform.tfvars</span> and the <span class="code">FIVETRAN_MDLS_DESTINATION_ID</span> secret.</div>
+    </li>
+    <li>
+      <div class="step-title">Open a PR touching <span class="code">infra/</span>, then merge it</div>
+      <div class="step-body"><span class="code">terraform-plan.yml</span> posts a real plan on the PR. After merge, <span class="code">terraform-apply.yml</span> pauses on the environment approval; once approved, it creates the S3 buckets, IAM roles, Glue databases, and the Fivetran connector. Add the resulting connector id as <span class="code">FIVETRAN_CONNECTOR_ID</span>.</div>
+    </li>
+    <li>
+      <div class="step-title">Demo it</div>
+      <div class="step-body">Walk the GitHub Pages site (Architecture page for the diagram, Pipeline page for live workflow-run status, Dashboard for the marts), or open the AWS/Fivetran consoles to show what <span class="code">terraform-apply.yml</span> created. <span class="code">generate_and_sync.yml</span> keeps feeding new data through the real connector on a daily cron, or trigger it manually.</div>
+    </li>
+  </ol>
+
+  <h2>Required GitHub secrets</h2>
+  <table>
+    <tr><th>Secret</th><th>Used by</th><th>Notes</th></tr>
+    <tr><td class="code">FIVETRAN_API_KEY</td><td>plan, apply, bootstrap, sync</td><td>Fivetran REST/Terraform API key</td></tr>
+    <tr><td class="code">FIVETRAN_API_SECRET</td><td>plan, apply, bootstrap, sync</td><td>Fivetran REST/Terraform API secret</td></tr>
+    <tr><td class="code">FIVETRAN_MDLS_DESTINATION_ID</td><td>plan, apply</td><td>From step 5 above</td></tr>
+    <tr><td class="code">FIVETRAN_S3_EXTERNAL_ID</td><td>plan, apply</td><td>Same string as in terraform.tfvars</td></tr>
+    <tr><td class="code">FIVETRAN_CONNECTOR_ID</td><td>generate_and_sync</td><td>From step 6, after first apply</td></tr>
+    <tr><td><span class="code">AWS_ACCESS_KEY_ID</span> / <span class="code">AWS_SECRET_ACCESS_KEY</span></td><td>generate_and_sync</td><td>Only needs s3:PutObject on the source bucket</td></tr>
+    <tr><td class="code">SOURCE_BUCKET_NAME</td><td>generate_and_sync</td><td>Must match source_bucket_name in tfvars</td></tr>
+  </table>
+
+  <div class="footer-note">
+    Steps 3–7 need a real Fivetran account and an AWS account with permission to create S3
+    buckets, IAM roles, Glue databases, and an Athena workgroup. Skipping them is fine — the
+    repo already demos the architecture and CI/CD pattern via the pushed frontend and workflow
+    files with nothing configured. Full detail, including why each workflow exists, is in
+    README.md.
+  </div>
+
+</body>
+</html>

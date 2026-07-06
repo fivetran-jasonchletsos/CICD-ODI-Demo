@@ -59,14 +59,9 @@ export default function OverviewPage() {
         Terraform + GitHub Actions around an MDLS Fivetran + dbt pipeline
       </h1>
       <p className="mt-4 max-w-3xl text-[15px] leading-relaxed" style={{ color: 'var(--ink-muted)' }}>
-        This demo teaches Fivetran SEs how to wrap an ODI-style Fivetran + dbt demo in infra-as-code and
-        CI/CD, built in reply to Aaron Dear's thread in <code className="inline-code">#se_demo_improvements</code>{' '}
-        about every other demo repo in this workspace applying Terraform by hand with no PR-gated infra
-        workflow. The data domain — synthetic orders, customers, and order line items — is intentionally
-        generic: the DevOps mechanics are the star, not the vertical. A three-zone lakehouse (Source, MDLS
-        Data Lakehouse, Consumers) is provisioned entirely from <code className="inline-code">infra/</code>,
-        reviewed via <code className="inline-code">terraform-plan.yml</code> on every pull request, and applied
-        via <code className="inline-code">terraform-apply.yml</code> behind a GitHub Environment approval gate.
+        Infra changes go through a PR-reviewed <code className="inline-code">terraform plan</code> before
+        they touch anything live. The data (synthetic orders) is just a stand-in — see{' '}
+        <code className="inline-code">infra/</code> for the Terraform and the README for setup.
       </p>
 
       <div className="mt-6 flex flex-wrap gap-3">
@@ -105,30 +100,6 @@ export default function OverviewPage() {
             <KpiCard label="Avg order value" value={fmtCurrency(kpis.avgOrderValue)} sub="total revenue / total orders" />
           </div>
         )}
-      </section>
-
-      <section className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="card p-5">
-          <div className="text-sm font-semibold" style={{ color: 'var(--ink-strong)' }}>One copy, many engines</div>
-          <p className="mt-2 text-[13px] leading-relaxed" style={{ color: 'var(--ink-muted)' }}>
-            Fivetran's Managed Data Lake Service lands Iceberg tables once, in S3. DuckDB, Athena, and
-            an optional Snowflake external volume all read the same tables in place — no copies.
-          </p>
-        </div>
-        <div className="card p-5">
-          <div className="text-sm font-semibold" style={{ color: 'var(--ink-strong)' }}>PR-gated infra</div>
-          <p className="mt-2 text-[13px] leading-relaxed" style={{ color: 'var(--ink-muted)' }}>
-            Every change under <code className="inline-code">infra/</code> gets a <code className="inline-code">terraform plan</code>{' '}
-            posted as a PR comment before anything touches a live bucket, IAM role, or connector.
-          </p>
-        </div>
-        <div className="card p-5">
-          <div className="text-sm font-semibold" style={{ color: 'var(--ink-strong)' }}>Zero-secret CI baseline</div>
-          <p className="mt-2 text-[13px] leading-relaxed" style={{ color: 'var(--ink-muted)' }}>
-            <code className="inline-code">dbt_run.yml</code> builds and tests the whole project against local
-            DuckDB with no cloud credentials — the always-on, free path every fork can run.
-          </p>
-        </div>
       </section>
     </div>
   );

@@ -199,50 +199,64 @@ snapshots (refreshed automatically by `dbt_run.yml`), so the frontend has
 real data even before anyone has run Terraform or configured a single
 secret.
 
-## Setup checklist — getting this live on GitHub
+## Step-by-step: an SE creating the resources and demoing this
 
-The repo works fully unread with zero setup: `dbt_run.yml` and `deploy.yml` run
-green on a fresh push with no secrets at all, because DuckDB + the committed
-`dev.duckdb`/`app/public/data/*.json` snapshots are the always-on path. Everything
-below is only needed if you want the *live* Fivetran/AWS/Snowflake path — the
-part that actually demonstrates the PR-gated infra workflow end to end.
+Printable version: [`docs/CICD-ODI-Demo-Setup-Guide.pdf`](docs/CICD-ODI-Demo-Setup-Guide.pdf)
+(source: `docs/setup-guide.html`).
 
-1. **Push the repo** (nothing to configure yet — `dbt_run.yml` and `deploy.yml`
-   will run on the first push to `main` and publish the frontend to GitHub Pages).
-2. **Create a `production` GitHub Environment** (Settings → Environments) and
-   add at least one required reviewer. This is what makes `terraform-apply.yml`
-   pause for a human click even though the workflow itself fires automatically
-   on merge.
-3. **Add repository secrets** (Settings → Secrets and variables → Actions).
-   Every secret referenced anywhere in `.github/workflows/`:
+**Do you need to edit the `.tf` files? No.** Every value that changes between
+SEs/accounts (bucket names, region, credentials, org name, whether Snowflake
+is on) is a variable in `infra/variables.tf`. You only fill in
+`terraform.tfvars` — copied from `terraform.tfvars.example` — and set the
+matching GitHub secrets. Editing the `.tf` files themselves is only needed if
+you want to change the architecture (add a resource, swap a consumer, change
+the data domain), not to stand up this demo as-is.
+
+1. **Fork or clone the repo.** Nothing to configure yet — `dbt_run.yml` and
+   `deploy.yml` already run green on push with zero secrets (DuckDB + the
+   committed `dev.duckdb` / `app/public/data/*.json` snapshots are the
+   always-on path), and GitHub Pages already serves the frontend.
+2. **Copy `infra/terraform.tfvars.example` → `infra/terraform.tfvars`** and
+   fill in your own Fivetran API key/secret, an external-ID string you pick,
+   and (only if you want the optional consumer) Snowflake account details.
+   AWS region and bucket names can stay as the defaults or be changed here —
+   still no `.tf` file edits.
+3. **Add the same values as GitHub repo secrets** (Settings → Secrets and
+   variables → Actions) so the Actions workflows can use them too:
 
    | Secret | Used by | Notes |
    |---|---|---|
    | `FIVETRAN_API_KEY` | terraform-plan, terraform-apply, bootstrap-mdls, generate_and_sync | Fivetran REST/Terraform API key |
    | `FIVETRAN_API_SECRET` | terraform-plan, terraform-apply, bootstrap-mdls, generate_and_sync | Fivetran REST/Terraform API secret |
    | `FIVETRAN_MDLS_DESTINATION_ID` | terraform-plan, terraform-apply | The MDLS destination/group id — only exists *after* step 4 below |
-   | `FIVETRAN_S3_EXTERNAL_ID` | terraform-plan, terraform-apply | Your own chosen external-ID string for the assume-role trust policies |
-   | `FIVETRAN_CONNECTOR_ID` | generate_and_sync | The `fivetran_connector.orders_s3` id — only exists after the first `terraform-apply.yml` run (see `infra/outputs.tf`) |
+   | `FIVETRAN_S3_EXTERNAL_ID` | terraform-plan, terraform-apply | Same string you put in `terraform.tfvars` |
+   | `FIVETRAN_CONNECTOR_ID` | generate_and_sync | The connector id — only exists after step 6 (see `infra/outputs.tf`) |
    | `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` | generate_and_sync | Only needs `s3:PutObject` on the source landing bucket |
    | `SOURCE_BUCKET_NAME` | generate_and_sync | Must match `source_bucket_name` in `terraform.tfvars` |
 
-   `secrets.GITHUB_TOKEN` is provided automatically by Actions — nothing to add.
-4. **Run `bootstrap-mdls.yml` once** (Actions tab → "Run workflow"). Paste the
-   printed destination/group id into the `FIVETRAN_MDLS_DESTINATION_ID` secret
-   above, and into `terraform.tfvars` if you're also planning locally.
-5. **Open a PR that touches `infra/`** (even a comment change) to see
-   `terraform-plan.yml` post a real plan as a PR comment — that's the gate this
-   whole repo exists to demonstrate.
-6. **Merge it.** `terraform-apply.yml` fires, pauses on the `production`
-   environment's required reviewer, and — once approved — actually provisions
-   Zone 1 and Zone 2. Grab the connector id from the run's output and add it as
-   `FIVETRAN_CONNECTOR_ID` so `generate_and_sync.yml` can start feeding it.
+   (`secrets.GITHUB_TOKEN` is automatic — nothing to add.)
+4. **Create a `production` GitHub Environment** (Settings → Environments)
+   with at least one required reviewer — this is what makes
+   `terraform-apply.yml` pause for a human click.
+5. **Run `bootstrap-mdls.yml` once** (Actions tab → Run workflow) to create
+   the Fivetran MDLS destination. Paste the printed id into
+   `terraform.tfvars` and the `FIVETRAN_MDLS_DESTINATION_ID` secret.
+6. **Open a PR touching `infra/`** (even a one-line comment) to see
+   `terraform-plan.yml` post a real plan on the PR, then merge it.
+   `terraform-apply.yml` pauses on the environment approval, and once you
+   click approve it actually creates the S3 buckets, IAM roles, Glue
+   databases, and the Fivetran connector. Grab the connector id from the run
+   output and add it as `FIVETRAN_CONNECTOR_ID`.
+7. **Demo it.** Either walk the GitHub Pages site (Architecture page for the
+   diagram, Pipeline page for live workflow-run status, Dashboard for the
+   marts) or open the actual AWS/Fivetran consoles to show the resources that
+   `terraform-apply.yml` just created. `generate_and_sync.yml` (daily cron, or
+   trigger manually) keeps feeding it new data through the real connector.
 
-Steps 2-6 need a real Fivetran account and AWS account with permissions to
-create S3 buckets, IAM roles, Glue databases, and an Athena workgroup. Skipping
-them entirely is fine — the repo's teaching value (the workflow files
-themselves, the README, and the `/runbook` page) doesn't depend on ever running
-them live.
+Steps 2-6 need a real Fivetran account and an AWS account with permissions to
+create S3 buckets, IAM roles, Glue databases, and an Athena workgroup.
+Skipping them is fine too — the repo already demos the architecture and CI/CD
+pattern via the pushed frontend and workflow files with nothing configured.
 
 ## Running locally
 
