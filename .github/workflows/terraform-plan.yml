@@ -1,0 +1,79 @@
+name: Terraform Plan
+
+# PR-gate for infra changes: reviews a Terraform diff before it can touch a
+# live Fivetran connector or the MDLS S3/Glue lakehouse. Runs on every PR that
+# touches infra/ and posts the plan output as a PR comment.
+
+on:
+  pull_request:
+    paths:
+      - "infra/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  plan:
+    name: terraform plan
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: infra
+    env:
+      TF_VAR_fivetran_api_key: ${{ secrets.FIVETRAN_API_KEY }}
+      TF_VAR_fivetran_api_secret: ${{ secrets.FIVETRAN_API_SECRET }}
+      TF_VAR_fivetran_mdls_destination_id: ${{ secrets.FIVETRAN_MDLS_DESTINATION_ID }}
+      TF_VAR_fivetran_s3_external_id: ${{ secrets.FIVETRAN_S3_EXTERNAL_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: true
+
+      - name: Terraform fmt check
+        run: terraform fmt -check -recursive
+
+      - name: Terraform init (no backend)
+        run: terraform init -backend=false
+
+      - name: Terraform validate
+        run: terraform validate
+
+      - name: Terraform plan
+        id: plan
+        run: |
+          set +e
+          terraform plan -no-color -input=false -out=tfplan.binary 2>&1 | tee tfplan.txt
+          exit_code=${PIPESTATUS[0]}
+          echo "exitcode=$exit_code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Post plan as PR comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'infra/tfplan.txt';
+            let planOutput = 'No plan output was produced.';
+            if (fs.existsSync(path)) {
+              planOutput = fs.readFileSync(path, 'utf8');
+              const maxLen = 60000;
+              if (planOutput.length > maxLen) {
+                planOutput = planOutput.slice(0, maxLen) + '\n... (truncated)';
+              }
+            }
+            const body = `### Terraform Plan\n\n<details><summary>Show plan</summary>\n\n\`\`\`\n${planOutput}\n\`\`\`\n\n</details>`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+
+      - name: Fail if plan failed
+        if: steps.plan.outputs.exitcode != '0'
+        run: exit 1

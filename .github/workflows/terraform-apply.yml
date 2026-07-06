@@ -1,0 +1,44 @@
+name: Terraform Apply
+
+# Applies infra/ changes on merge to main. Gated by the "production" GitHub
+# Environment below - configure a required reviewer on that Environment in
+# repo Settings > Environments so this still requires a manual approval click
+# even though the workflow itself triggers automatically on push.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "infra/**"
+
+permissions:
+  contents: read
+
+jobs:
+  apply:
+    name: terraform apply
+    runs-on: ubuntu-latest
+    environment: production
+    defaults:
+      run:
+        working-directory: infra
+    env:
+      TF_VAR_fivetran_api_key: ${{ secrets.FIVETRAN_API_KEY }}
+      TF_VAR_fivetran_api_secret: ${{ secrets.FIVETRAN_API_SECRET }}
+      TF_VAR_fivetran_mdls_destination_id: ${{ secrets.FIVETRAN_MDLS_DESTINATION_ID }}
+      TF_VAR_fivetran_s3_external_id: ${{ secrets.FIVETRAN_S3_EXTERNAL_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: true
+
+      - name: Terraform init (no backend)
+        run: terraform init -backend=false
+
+      - name: Terraform apply
+        run: terraform apply -auto-approve -input=false

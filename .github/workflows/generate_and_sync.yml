@@ -1,0 +1,68 @@
+name: Generate Data and Sync
+
+# Simulates the "app" writing new orders to the Zone 1 source landing bucket,
+# then kicks a Fivetran sync so the MDLS lakehouse (Zone 2) picks up the
+# delta. Every cloud-touching step is guarded on its secret being non-empty
+# so a fresh clone with no configured secrets still runs this workflow green
+# (it just skips the AWS/Fivetran steps).
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-and-sync:
+    name: generate delta and trigger sync
+    runs-on: ubuntu-latest
+    env:
+      FIVETRAN_API_KEY: ${{ secrets.FIVETRAN_API_KEY }}
+      FIVETRAN_API_SECRET: ${{ secrets.FIVETRAN_API_SECRET }}
+      FIVETRAN_CONNECTOR_ID: ${{ secrets.FIVETRAN_CONNECTOR_ID }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: us-west-2
+      SOURCE_BUCKET_NAME: ${{ secrets.SOURCE_BUCKET_NAME }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate delta orders
+        run: python scripts/generate_data.py --delta
+
+      - name: Configure AWS credentials
+        if: env.AWS_ACCESS_KEY_ID != ''
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Upload delta to source landing bucket
+        if: env.AWS_ACCESS_KEY_ID != '' && env.SOURCE_BUCKET_NAME != ''
+        run: |
+          aws s3 cp transform/seeds/customers.csv "s3://${SOURCE_BUCKET_NAME}/orders/customers.csv"
+          aws s3 cp transform/seeds/orders.csv "s3://${SOURCE_BUCKET_NAME}/orders/orders.csv"
+          aws s3 cp transform/seeds/order_items.csv "s3://${SOURCE_BUCKET_NAME}/orders/order_items.csv"
+
+      - name: Trigger Fivetran sync
+        if: env.FIVETRAN_API_KEY != '' && env.FIVETRAN_CONNECTOR_ID != ''
+        run: |
+          curl -sf -X POST \
+            -u "${FIVETRAN_API_KEY}:${FIVETRAN_API_SECRET}" \
+            -H "Content-Type: application/json" \
+            "https://api.fivetran.com/v1/connectors/${FIVETRAN_CONNECTOR_ID}/force"
+
+      - name: Skipped cloud steps notice
+        if: env.FIVETRAN_API_KEY == ''
+        run: |
+          echo "No FIVETRAN_API_KEY secret configured - skipped S3 upload and Fivetran sync trigger."
+          echo "Delta CSVs were still generated locally under transform/seeds/ for this run."

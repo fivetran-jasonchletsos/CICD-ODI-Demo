@@ -1,0 +1,40 @@
+name: Bootstrap MDLS Destination
+
+# One-time, manual-only step per environment: creates the Fivetran MDLS
+# (Polaris/Iceberg) destination via the REST API. This is NOT a Terraform
+# resource (the Fivetran provider does not support creating MDLS destinations)
+# and must never run on a schedule or push - only a human-triggered
+# workflow_dispatch, once, per environment being bootstrapped.
+
+on:
+  workflow_dispatch:
+    inputs:
+      group_name:
+        description: "Fivetran group / destination name to create"
+        required: true
+        default: "cicd-odi-demo-mdls"
+
+permissions:
+  contents: read
+
+jobs:
+  bootstrap:
+    name: create MDLS destination
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create MDLS destination
+        env:
+          FIVETRAN_API_KEY: ${{ secrets.FIVETRAN_API_KEY }}
+          FIVETRAN_API_SECRET: ${{ secrets.FIVETRAN_API_SECRET }}
+          GROUP_NAME: ${{ inputs.group_name }}
+        run: |
+          chmod +x scripts/create_mdls_destination.sh
+          ./scripts/create_mdls_destination.sh
+
+      - name: Reminder
+        run: |
+          echo "Copy the destination/group id printed above into terraform.tfvars"
+          echo "as fivetran_mdls_destination_id. Do not commit that id to source control."

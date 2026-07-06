@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+/*
+ * CICD-ODI-Demo — internal SE-education demo: Terraform + GitHub Actions
+ * wrapped around an MDLS-based Fivetran + dbt pipeline.
+ * Palette: near-black slate base, Terraform purple + GitHub Actions blue
+ * accents, dbt green for transform states. Inter for text, JetBrains Mono
+ * for anything code/config/pipeline-shaped.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Surfaces */
+  --slate-deep:   #0b1220;
+  --slate:        #111a2e;
+  --slate-soft:   #16213a;
+  --paper:        #f7f8fb;
+  --paper-deep:   #edf0f6;
+  --card:         #ffffff;
+  --hairline:     #e2e6ef;
+
+  /* Text */
+  --ink-strong:   #0f1626;
+  --ink:          #1f2a3d;
+  --ink-muted:    #4a5468;
+  --ink-soft:     #78829a;
+  --ink-inverse:  #e9ecf5;
+
+  /* Terraform purple — infra-as-code */
+  --terraform:      #7B42BC;
+  --terraform-bright: #9b6bd6;
+  --terraform-dim:  #5c2f8f;
+  --terraform-bg:   rgba(123, 66, 188, 0.08);
+
+  /* GitHub Actions blue — CI/CD */
+  --gha:            #2088FF;
+  --gha-bright:     #57a6ff;
+  --gha-dim:        #1667c4;
+  --gha-bg:         rgba(32, 136, 255, 0.08);
+
+  /* Fivetran blue / dbt green — pipeline accents reused from the connector layer */
+  --fivetran:       #1B9FFF;
+  --dbt-green:      #0DB052;
+
+  /* Status */
+  --good:    #16a34a;
+  --good-bg: rgba(22, 163, 74, 0.10);
+  --warn:    #d97706;
+  --warn-bg: rgba(217, 119, 6, 0.10);
+  --bad:     #dc2626;
+  --bad-bg:  rgba(220, 38, 38, 0.10);
+  --neutral: #64748b;
+  --neutral-bg: rgba(100, 116, 139, 0.10);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--terraform);
+}
+
+.eyebrow-light {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-inverse);
+  opacity: 0.7;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(15, 22, 38, 0.04);
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+}
+.status-pill.good    { color: var(--good); background: var(--good-bg); }
+.status-pill.warn    { color: var(--warn); background: var(--warn-bg); }
+.status-pill.bad     { color: var(--bad);  background: var(--bad-bg); }
+.status-pill.neutral { color: var(--neutral); background: var(--neutral-bg); }
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.data-table th {
+  text-align: left;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+.data-table td {
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--ink);
+  vertical-align: top;
+}
+.data-table tr:last-child td { border-bottom: none; }
+.data-table th.num, .data-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+code.inline-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82em;
+  background: var(--paper-deep);
+  border: 1px solid var(--hairline);
+  padding: 0.05rem 0.35rem;
+  border-radius: 0.25rem;
+  color: var(--terraform-dim);
+}
+
+.page-enter {
+  animation: page-fade 0.25s ease-out;
+}
+@keyframes page-fade {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

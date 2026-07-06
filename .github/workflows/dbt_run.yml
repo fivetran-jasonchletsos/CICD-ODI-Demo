@@ -1,0 +1,84 @@
+name: dbt Run
+
+# The load-bearing, self-contained workflow: builds the dbt project against
+# the DEFAULT DuckDB target (the always-on, zero-cost Zone 3 consumer) with
+# NO cloud secrets required, then exports the marts to JSON for the frontend
+# and commits the refreshed dev.duckdb + JSON snapshots back to main.
+
+on:
+  schedule:
+    - cron: "25 3,9,15,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  secret_scan:
+    name: secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Gitleaks scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dbt_run:
+    name: dbt build (duckdb)
+    needs: secret_scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dbt
+        run: pip install dbt-core==1.9.0 dbt-duckdb==1.9.0
+
+      - name: Generate seed data if missing
+        run: |
+          if [ ! -f transform/seeds/customers.csv ]; then
+            python scripts/generate_data.py
+          fi
+
+      - name: dbt deps
+        working-directory: transform
+        run: dbt deps --profiles-dir .
+
+      - name: dbt seed
+        working-directory: transform
+        run: dbt seed --profiles-dir .
+
+      - name: dbt run
+        working-directory: transform
+        run: dbt run --profiles-dir .
+
+      - name: dbt test
+        working-directory: transform
+        run: dbt test --profiles-dir .
+
+      - name: dbt docs generate
+        working-directory: transform
+        run: dbt docs generate --profiles-dir .
+
+      - name: Install duckdb python package
+        run: pip install duckdb
+
+      - name: Export marts to JSON
+        run: python scripts/export_marts_to_json.py
+
+      - name: Commit and push refreshed artifacts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh dev.duckdb and mart JSON snapshots [skip ci]"
+          file_pattern: "transform/dev.duckdb app/public/data/*.json"
+          skip_dirty_check: false

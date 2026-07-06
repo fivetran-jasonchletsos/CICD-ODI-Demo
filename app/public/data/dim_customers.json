@@ -1,0 +1,4502 @@
+[
+  {
+    "customer_id": 1,
+    "customer_name": "Hayden Kim",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-13",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3706.79
+  },
+  {
+    "customer_id": 2,
+    "customer_name": "Avery Patel",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-15",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4894.31
+  },
+  {
+    "customer_id": 3,
+    "customer_name": "Taylor Ivanova",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-09",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5501.0
+  },
+  {
+    "customer_id": 4,
+    "customer_name": "Jamie Muller",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-02",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 2337.31
+  },
+  {
+    "customer_id": 5,
+    "customer_name": "Logan Dubois",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-01",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 8957.3
+  },
+  {
+    "customer_id": 6,
+    "customer_name": "Quinn Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-19",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4661.97
+  },
+  {
+    "customer_id": 7,
+    "customer_name": "Quinn Patel",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-06-15",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5738.7
+  },
+  {
+    "customer_id": 8,
+    "customer_name": "Morgan Smith",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-23",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3973.63
+  },
+  {
+    "customer_id": 9,
+    "customer_name": "Drew Silva",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-06",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5090.43
+  },
+  {
+    "customer_id": 10,
+    "customer_name": "Morgan Tanaka",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-10",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 1778.59
+  },
+  {
+    "customer_id": 11,
+    "customer_name": "Drew Andersson",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-21",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3881.23
+  },
+  {
+    "customer_id": 12,
+    "customer_name": "Kendall Muller",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-03-01",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5665.31
+  },
+  {
+    "customer_id": 13,
+    "customer_name": "Morgan Tanaka",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-14",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4273.8
+  },
+  {
+    "customer_id": 14,
+    "customer_name": "Riley Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-05",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5159.07
+  },
+  {
+    "customer_id": 15,
+    "customer_name": "Logan Botha",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-28",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5738.78
+  },
+  {
+    "customer_id": 16,
+    "customer_name": "Blake Alvarez",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-29",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 6981.43
+  },
+  {
+    "customer_id": 17,
+    "customer_name": "Quinn Larsen",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-01",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4993.02
+  },
+  {
+    "customer_id": 18,
+    "customer_name": "Avery Garcia",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-11",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3999.73
+  },
+  {
+    "customer_id": 19,
+    "customer_name": "Jamie Ivanova",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-29",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 7565.38
+  },
+  {
+    "customer_id": 20,
+    "customer_name": "Rowan Larsen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-25",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6984.87
+  },
+  {
+    "customer_id": 21,
+    "customer_name": "Avery Alvarez",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-17",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4193.09
+  },
+  {
+    "customer_id": 22,
+    "customer_name": "Cameron Tanaka",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-24",
+    "lifetime_order_count": 3,
+    "lifetime_revenue": 1525.98
+  },
+  {
+    "customer_id": 23,
+    "customer_name": "Sage Novak",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-26",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5052.48
+  },
+  {
+    "customer_id": 24,
+    "customer_name": "Casey Larsen",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-11",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4440.12
+  },
+  {
+    "customer_id": 25,
+    "customer_name": "Drew Smith",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-28",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 7128.49
+  },
+  {
+    "customer_id": 26,
+    "customer_name": "Sage Silva",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-31",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3239.08
+  },
+  {
+    "customer_id": 27,
+    "customer_name": "Kendall Dubois",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-19",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5314.27
+  },
+  {
+    "customer_id": 28,
+    "customer_name": "Morgan Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-09",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5073.54
+  },
+  {
+    "customer_id": 29,
+    "customer_name": "Parker Alvarez",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-01-04",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4141.38
+  },
+  {
+    "customer_id": 30,
+    "customer_name": "Sage Kim",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3962.7
+  },
+  {
+    "customer_id": 31,
+    "customer_name": "Drew Chen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-18",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 5736.44
+  },
+  {
+    "customer_id": 32,
+    "customer_name": "Blake Fernandez",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-18",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 6348.43
+  },
+  {
+    "customer_id": 33,
+    "customer_name": "Alex Kim",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-05-16",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 5222.81
+  },
+  {
+    "customer_id": 34,
+    "customer_name": "Avery Garcia",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-09-24",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 5042.09
+  },
+  {
+    "customer_id": 35,
+    "customer_name": "Taylor Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-02",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6042.68
+  },
+  {
+    "customer_id": 36,
+    "customer_name": "Casey Patel",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-12-22",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4606.31
+  },
+  {
+    "customer_id": 37,
+    "customer_name": "Quinn Fernandez",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-01-09",
+    "lifetime_order_count": 4,
+    "lifetime_revenue": 1902.72
+  },
+  {
+    "customer_id": 38,
+    "customer_name": "Parker Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-18",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 7049.1
+  },
+  {
+    "customer_id": 39,
+    "customer_name": "Kendall Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-17",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3120.5
+  },
+  {
+    "customer_id": 40,
+    "customer_name": "Finley Kim",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-17",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4777.93
+  },
+  {
+    "customer_id": 41,
+    "customer_name": "Alex Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-07-13",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5536.37
+  },
+  {
+    "customer_id": 42,
+    "customer_name": "Taylor Yamamoto",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3830.45
+  },
+  {
+    "customer_id": 43,
+    "customer_name": "Skyler Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-15",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3348.17
+  },
+  {
+    "customer_id": 44,
+    "customer_name": "Jamie Dubois",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-10",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 2408.29
+  },
+  {
+    "customer_id": 45,
+    "customer_name": "Cameron Novak",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-26",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4208.99
+  },
+  {
+    "customer_id": 46,
+    "customer_name": "Jamie Kim",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-03",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5732.29
+  },
+  {
+    "customer_id": 47,
+    "customer_name": "Emerson Osei",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-30",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4305.03
+  },
+  {
+    "customer_id": 48,
+    "customer_name": "Kendall Larsen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-18",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6944.96
+  },
+  {
+    "customer_id": 49,
+    "customer_name": "Morgan Muller",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-08",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 7189.17
+  },
+  {
+    "customer_id": 50,
+    "customer_name": "Casey Osei",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-18",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 4605.78
+  },
+  {
+    "customer_id": 51,
+    "customer_name": "Taylor Haddad",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-10",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 4005.1
+  },
+  {
+    "customer_id": 52,
+    "customer_name": "Alex Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-15",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 5021.8
+  },
+  {
+    "customer_id": 53,
+    "customer_name": "Harper Chen",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-12-21",
+    "lifetime_order_count": 19,
+    "lifetime_revenue": 7982.72
+  },
+  {
+    "customer_id": 54,
+    "customer_name": "Rowan Nguyen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-14",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3022.82
+  },
+  {
+    "customer_id": 55,
+    "customer_name": "Reese Osei",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-05",
+    "lifetime_order_count": 4,
+    "lifetime_revenue": 1380.03
+  },
+  {
+    "customer_id": 56,
+    "customer_name": "Jamie Garcia",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-02",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4107.68
+  },
+  {
+    "customer_id": 57,
+    "customer_name": "Jordan Ivanova",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-31",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3279.71
+  },
+  {
+    "customer_id": 58,
+    "customer_name": "Riley Garcia",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-14",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 8758.3
+  },
+  {
+    "customer_id": 59,
+    "customer_name": "Drew Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-09",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3349.0
+  },
+  {
+    "customer_id": 60,
+    "customer_name": "Avery Ivanova",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-08",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 7235.62
+  },
+  {
+    "customer_id": 61,
+    "customer_name": "Kendall Ivanova",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-01-31",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6419.41
+  },
+  {
+    "customer_id": 62,
+    "customer_name": "Kendall Yamamoto",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-15",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6181.47
+  },
+  {
+    "customer_id": 63,
+    "customer_name": "Casey Botha",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-18",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 7185.0
+  },
+  {
+    "customer_id": 64,
+    "customer_name": "Alex Haddad",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-09",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4709.1
+  },
+  {
+    "customer_id": 65,
+    "customer_name": "Sage Silva",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-09-14",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7480.14
+  },
+  {
+    "customer_id": 66,
+    "customer_name": "Avery Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-13",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5579.79
+  },
+  {
+    "customer_id": 67,
+    "customer_name": "Logan Kowalski",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-24",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4319.91
+  },
+  {
+    "customer_id": 68,
+    "customer_name": "Reese Botha",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-11-20",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2987.35
+  },
+  {
+    "customer_id": 69,
+    "customer_name": "Quinn Kim",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-12",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 2343.0
+  },
+  {
+    "customer_id": 70,
+    "customer_name": "Quinn Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-30",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4102.25
+  },
+  {
+    "customer_id": 71,
+    "customer_name": "Kendall Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-20",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3304.95
+  },
+  {
+    "customer_id": 72,
+    "customer_name": "Jordan Smith",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-20",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6025.83
+  },
+  {
+    "customer_id": 73,
+    "customer_name": "Alex Rossi",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-31",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 9672.7
+  },
+  {
+    "customer_id": 74,
+    "customer_name": "Riley Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-16",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4066.73
+  },
+  {
+    "customer_id": 75,
+    "customer_name": "Blake Nguyen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-13",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5922.03
+  },
+  {
+    "customer_id": 76,
+    "customer_name": "Casey Dubois",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-22",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3957.57
+  },
+  {
+    "customer_id": 77,
+    "customer_name": "Blake Patel",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-17",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 1978.67
+  },
+  {
+    "customer_id": 78,
+    "customer_name": "Dakota Garcia",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-18",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 2428.2
+  },
+  {
+    "customer_id": 79,
+    "customer_name": "Kendall Kim",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-26",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5128.78
+  },
+  {
+    "customer_id": 80,
+    "customer_name": "Drew Alvarez",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-03-05",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2573.76
+  },
+  {
+    "customer_id": 81,
+    "customer_name": "Riley Johnson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-11",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6002.57
+  },
+  {
+    "customer_id": 82,
+    "customer_name": "Emerson Botha",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-24",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2406.3
+  },
+  {
+    "customer_id": 83,
+    "customer_name": "Morgan Tanaka",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-02-18",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4817.14
+  },
+  {
+    "customer_id": 84,
+    "customer_name": "Jamie Haddad",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-24",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4369.1
+  },
+  {
+    "customer_id": 85,
+    "customer_name": "Avery Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-17",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6088.84
+  },
+  {
+    "customer_id": 86,
+    "customer_name": "Taylor Silva",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-19",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4724.55
+  },
+  {
+    "customer_id": 87,
+    "customer_name": "Kendall Dubois",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-11-01",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 6190.44
+  },
+  {
+    "customer_id": 88,
+    "customer_name": "Quinn Johnson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-08",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 3879.66
+  },
+  {
+    "customer_id": 89,
+    "customer_name": "Emerson Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-11",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5557.13
+  },
+  {
+    "customer_id": 90,
+    "customer_name": "Morgan Tanaka",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-07-01",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6222.35
+  },
+  {
+    "customer_id": 91,
+    "customer_name": "Emerson Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-15",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4208.25
+  },
+  {
+    "customer_id": 92,
+    "customer_name": "Kendall Rossi",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-10",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7356.17
+  },
+  {
+    "customer_id": 93,
+    "customer_name": "Parker Kowalski",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-05",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 6719.51
+  },
+  {
+    "customer_id": 94,
+    "customer_name": "Rowan Yamamoto",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-18",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 7937.22
+  },
+  {
+    "customer_id": 95,
+    "customer_name": "Emerson Botha",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-31",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2185.62
+  },
+  {
+    "customer_id": 96,
+    "customer_name": "Drew Ivanova",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-06",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2851.56
+  },
+  {
+    "customer_id": 97,
+    "customer_name": "Reese Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-19",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4936.78
+  },
+  {
+    "customer_id": 98,
+    "customer_name": "Drew Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-01",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2877.24
+  },
+  {
+    "customer_id": 99,
+    "customer_name": "Kendall Chen",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-26",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4978.74
+  },
+  {
+    "customer_id": 100,
+    "customer_name": "Kendall Smith",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-15",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 8029.44
+  },
+  {
+    "customer_id": 101,
+    "customer_name": "Drew Rossi",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-03",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2214.31
+  },
+  {
+    "customer_id": 102,
+    "customer_name": "Kendall Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-03",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5022.29
+  },
+  {
+    "customer_id": 103,
+    "customer_name": "Alex Garcia",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-03-23",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2771.53
+  },
+  {
+    "customer_id": 104,
+    "customer_name": "Taylor Haddad",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-02-15",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4352.74
+  },
+  {
+    "customer_id": 105,
+    "customer_name": "Jamie Yamamoto",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-12",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5590.75
+  },
+  {
+    "customer_id": 106,
+    "customer_name": "Casey Larsen",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-10-23",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3284.52
+  },
+  {
+    "customer_id": 107,
+    "customer_name": "Emerson Muller",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-18",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4790.91
+  },
+  {
+    "customer_id": 108,
+    "customer_name": "Sage Haddad",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-07",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 4300.91
+  },
+  {
+    "customer_id": 109,
+    "customer_name": "Finley Patel",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-29",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2648.12
+  },
+  {
+    "customer_id": 110,
+    "customer_name": "Drew Rossi",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-04",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3920.81
+  },
+  {
+    "customer_id": 111,
+    "customer_name": "Emerson Dubois",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-11-04",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4240.91
+  },
+  {
+    "customer_id": 112,
+    "customer_name": "Finley Silva",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-15",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5322.26
+  },
+  {
+    "customer_id": 113,
+    "customer_name": "Sage Novak",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-23",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3432.17
+  },
+  {
+    "customer_id": 114,
+    "customer_name": "Logan Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-29",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3893.81
+  },
+  {
+    "customer_id": 115,
+    "customer_name": "Blake Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-02",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4768.7
+  },
+  {
+    "customer_id": 116,
+    "customer_name": "Logan Patel",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-27",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2649.52
+  },
+  {
+    "customer_id": 117,
+    "customer_name": "Skyler Dubois",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-02",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 9564.97
+  },
+  {
+    "customer_id": 118,
+    "customer_name": "Emerson Tanaka",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-15",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3757.56
+  },
+  {
+    "customer_id": 119,
+    "customer_name": "Rowan Novak",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-05-07",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 7460.53
+  },
+  {
+    "customer_id": 120,
+    "customer_name": "Rowan Osei",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-11",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2531.35
+  },
+  {
+    "customer_id": 121,
+    "customer_name": "Emerson Novak",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-21",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3799.18
+  },
+  {
+    "customer_id": 122,
+    "customer_name": "Kendall Tanaka",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-13",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 3179.48
+  },
+  {
+    "customer_id": 123,
+    "customer_name": "Drew Dubois",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-03-04",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2581.58
+  },
+  {
+    "customer_id": 124,
+    "customer_name": "Cameron Botha",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-17",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4184.88
+  },
+  {
+    "customer_id": 125,
+    "customer_name": "Casey Haddad",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-29",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3348.5
+  },
+  {
+    "customer_id": 126,
+    "customer_name": "Skyler Chen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-29",
+    "lifetime_order_count": 17,
+    "lifetime_revenue": 8544.95
+  },
+  {
+    "customer_id": 127,
+    "customer_name": "Quinn Osei",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-30",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5898.19
+  },
+  {
+    "customer_id": 128,
+    "customer_name": "Alex Alvarez",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-06-29",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6358.63
+  },
+  {
+    "customer_id": 129,
+    "customer_name": "Avery Larsen",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-04",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2541.46
+  },
+  {
+    "customer_id": 130,
+    "customer_name": "Jordan Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-26",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5187.52
+  },
+  {
+    "customer_id": 131,
+    "customer_name": "Drew Patel",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-22",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 6124.46
+  },
+  {
+    "customer_id": 132,
+    "customer_name": "Morgan Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-25",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 1516.17
+  },
+  {
+    "customer_id": 133,
+    "customer_name": "Dakota Johnson",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-20",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3888.37
+  },
+  {
+    "customer_id": 134,
+    "customer_name": "Reese Kim",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-02-15",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3854.8
+  },
+  {
+    "customer_id": 135,
+    "customer_name": "Kendall Tanaka",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-01-25",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6041.43
+  },
+  {
+    "customer_id": 136,
+    "customer_name": "Taylor Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-10",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5759.19
+  },
+  {
+    "customer_id": 137,
+    "customer_name": "Kendall Costa",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-05",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3374.54
+  },
+  {
+    "customer_id": 138,
+    "customer_name": "Jordan Andersson",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-14",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3144.92
+  },
+  {
+    "customer_id": 139,
+    "customer_name": "Sage Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-09",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 4081.27
+  },
+  {
+    "customer_id": 140,
+    "customer_name": "Harper Kim",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-04-17",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4820.36
+  },
+  {
+    "customer_id": 141,
+    "customer_name": "Finley Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-22",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 7091.55
+  },
+  {
+    "customer_id": 142,
+    "customer_name": "Hayden Silva",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-04",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3808.85
+  },
+  {
+    "customer_id": 143,
+    "customer_name": "Quinn Rossi",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-02",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4068.06
+  },
+  {
+    "customer_id": 145,
+    "customer_name": "Drew Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-24",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3307.64
+  },
+  {
+    "customer_id": 146,
+    "customer_name": "Skyler Johnson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-27",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 8228.67
+  },
+  {
+    "customer_id": 147,
+    "customer_name": "Skyler Silva",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-17",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4859.17
+  },
+  {
+    "customer_id": 148,
+    "customer_name": "Jamie Smith",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-18",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2024.98
+  },
+  {
+    "customer_id": 149,
+    "customer_name": "Blake Muller",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-20",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6217.24
+  },
+  {
+    "customer_id": 150,
+    "customer_name": "Finley Nguyen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-24",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 2960.79
+  },
+  {
+    "customer_id": 151,
+    "customer_name": "Logan Muller",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-18",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 9078.42
+  },
+  {
+    "customer_id": 152,
+    "customer_name": "Harper Dubois",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-20",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 6370.4
+  },
+  {
+    "customer_id": 153,
+    "customer_name": "Skyler Andersson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-20",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5334.29
+  },
+  {
+    "customer_id": 154,
+    "customer_name": "Avery Kim",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-05",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3384.47
+  },
+  {
+    "customer_id": 155,
+    "customer_name": "Logan Johnson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-13",
+    "lifetime_order_count": 17,
+    "lifetime_revenue": 6499.21
+  },
+  {
+    "customer_id": 156,
+    "customer_name": "Quinn Alvarez",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-01-20",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5439.14
+  },
+  {
+    "customer_id": 157,
+    "customer_name": "Reese Muller",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-20",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2160.68
+  },
+  {
+    "customer_id": 158,
+    "customer_name": "Logan Dubois",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-30",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2614.42
+  },
+  {
+    "customer_id": 159,
+    "customer_name": "Blake Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-20",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2834.41
+  },
+  {
+    "customer_id": 160,
+    "customer_name": "Morgan Nguyen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-30",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2709.64
+  },
+  {
+    "customer_id": 161,
+    "customer_name": "Skyler Johnson",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-07",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5280.94
+  },
+  {
+    "customer_id": 162,
+    "customer_name": "Morgan Smith",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-16",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3082.79
+  },
+  {
+    "customer_id": 163,
+    "customer_name": "Hayden Botha",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-02",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2349.59
+  },
+  {
+    "customer_id": 164,
+    "customer_name": "Reese Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-05",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3428.76
+  },
+  {
+    "customer_id": 165,
+    "customer_name": "Drew Costa",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-30",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4800.13
+  },
+  {
+    "customer_id": 166,
+    "customer_name": "Finley Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-18",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5346.18
+  },
+  {
+    "customer_id": 167,
+    "customer_name": "Reese Ivanova",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-15",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4878.61
+  },
+  {
+    "customer_id": 168,
+    "customer_name": "Jamie Larsen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-27",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4368.34
+  },
+  {
+    "customer_id": 169,
+    "customer_name": "Riley Muller",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-13",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2581.64
+  },
+  {
+    "customer_id": 170,
+    "customer_name": "Alex Osei",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-30",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6934.26
+  },
+  {
+    "customer_id": 171,
+    "customer_name": "Reese Garcia",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-21",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4848.63
+  },
+  {
+    "customer_id": 172,
+    "customer_name": "Logan Haddad",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-02",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4726.88
+  },
+  {
+    "customer_id": 173,
+    "customer_name": "Hayden Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-14",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5888.71
+  },
+  {
+    "customer_id": 174,
+    "customer_name": "Avery Larsen",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-11-28",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3986.38
+  },
+  {
+    "customer_id": 175,
+    "customer_name": "Taylor Garcia",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-03-07",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 7189.04
+  },
+  {
+    "customer_id": 176,
+    "customer_name": "Parker Ivanova",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-28",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4594.87
+  },
+  {
+    "customer_id": 177,
+    "customer_name": "Logan Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-11-30",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2068.95
+  },
+  {
+    "customer_id": 178,
+    "customer_name": "Blake Novak",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-15",
+    "lifetime_order_count": 4,
+    "lifetime_revenue": 3389.6
+  },
+  {
+    "customer_id": 179,
+    "customer_name": "Emerson Alvarez",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-01",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5388.88
+  },
+  {
+    "customer_id": 180,
+    "customer_name": "Taylor Muller",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-05-25",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 4213.86
+  },
+  {
+    "customer_id": 181,
+    "customer_name": "Quinn Ivanova",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-01",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 4226.54
+  },
+  {
+    "customer_id": 182,
+    "customer_name": "Harper Fernandez",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-01-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3832.58
+  },
+  {
+    "customer_id": 183,
+    "customer_name": "Cameron Osei",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-10-30",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4486.37
+  },
+  {
+    "customer_id": 184,
+    "customer_name": "Dakota Osei",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-21",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6266.8
+  },
+  {
+    "customer_id": 185,
+    "customer_name": "Riley Rossi",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-27",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 1444.54
+  },
+  {
+    "customer_id": 186,
+    "customer_name": "Kendall Tanaka",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-24",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2560.34
+  },
+  {
+    "customer_id": 187,
+    "customer_name": "Quinn Rossi",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-08-23",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3813.3
+  },
+  {
+    "customer_id": 188,
+    "customer_name": "Sage Nguyen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-14",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 5301.86
+  },
+  {
+    "customer_id": 189,
+    "customer_name": "Sage Andersson",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-27",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3022.82
+  },
+  {
+    "customer_id": 190,
+    "customer_name": "Jamie Silva",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-09-27",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2207.31
+  },
+  {
+    "customer_id": 191,
+    "customer_name": "Logan Novak",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-12",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6247.91
+  },
+  {
+    "customer_id": 192,
+    "customer_name": "Drew Muller",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-20",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 8893.08
+  },
+  {
+    "customer_id": 193,
+    "customer_name": "Blake Osei",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-30",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5375.91
+  },
+  {
+    "customer_id": 194,
+    "customer_name": "Finley Kim",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-30",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2073.56
+  },
+  {
+    "customer_id": 195,
+    "customer_name": "Sage Yamamoto",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-12",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5692.06
+  },
+  {
+    "customer_id": 196,
+    "customer_name": "Harper Muller",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-02",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5328.2
+  },
+  {
+    "customer_id": 197,
+    "customer_name": "Jamie Costa",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-14",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5651.29
+  },
+  {
+    "customer_id": 198,
+    "customer_name": "Emerson Rossi",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-21",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 4083.22
+  },
+  {
+    "customer_id": 199,
+    "customer_name": "Parker Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-06",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6424.37
+  },
+  {
+    "customer_id": 200,
+    "customer_name": "Blake Novak",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-13",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6109.26
+  },
+  {
+    "customer_id": 201,
+    "customer_name": "Rowan Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-20",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 2850.97
+  },
+  {
+    "customer_id": 202,
+    "customer_name": "Avery Ivanova",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-30",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3167.59
+  },
+  {
+    "customer_id": 203,
+    "customer_name": "Jordan Rossi",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-31",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4777.93
+  },
+  {
+    "customer_id": 204,
+    "customer_name": "Rowan Botha",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-12",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3211.19
+  },
+  {
+    "customer_id": 205,
+    "customer_name": "Casey Fernandez",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-29",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 4438.06
+  },
+  {
+    "customer_id": 206,
+    "customer_name": "Morgan Fernandez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-30",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2484.38
+  },
+  {
+    "customer_id": 207,
+    "customer_name": "Emerson Larsen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-03",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5529.54
+  },
+  {
+    "customer_id": 208,
+    "customer_name": "Skyler Costa",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-07",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 1600.09
+  },
+  {
+    "customer_id": 209,
+    "customer_name": "Kendall Dubois",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-04-08",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 6285.08
+  },
+  {
+    "customer_id": 210,
+    "customer_name": "Logan Novak",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-03",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3228.14
+  },
+  {
+    "customer_id": 211,
+    "customer_name": "Hayden Botha",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-10-06",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5151.49
+  },
+  {
+    "customer_id": 212,
+    "customer_name": "Emerson Kim",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-16",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4471.85
+  },
+  {
+    "customer_id": 213,
+    "customer_name": "Reese Nguyen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-01",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 7570.1
+  },
+  {
+    "customer_id": 214,
+    "customer_name": "Reese Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-13",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3830.66
+  },
+  {
+    "customer_id": 215,
+    "customer_name": "Sage Osei",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-24",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5707.41
+  },
+  {
+    "customer_id": 216,
+    "customer_name": "Drew Tanaka",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-23",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2971.76
+  },
+  {
+    "customer_id": 217,
+    "customer_name": "Casey Muller",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-19",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5328.75
+  },
+  {
+    "customer_id": 218,
+    "customer_name": "Quinn Botha",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-10-25",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 4741.3
+  },
+  {
+    "customer_id": 219,
+    "customer_name": "Reese Botha",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-24",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4966.0
+  },
+  {
+    "customer_id": 220,
+    "customer_name": "Cameron Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-16",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5614.16
+  },
+  {
+    "customer_id": 221,
+    "customer_name": "Reese Chen",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-23",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3893.46
+  },
+  {
+    "customer_id": 222,
+    "customer_name": "Avery Tanaka",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-22",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2739.79
+  },
+  {
+    "customer_id": 223,
+    "customer_name": "Reese Nguyen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-05",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3230.49
+  },
+  {
+    "customer_id": 224,
+    "customer_name": "Kendall Alvarez",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-11-26",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 3543.08
+  },
+  {
+    "customer_id": 225,
+    "customer_name": "Reese Muller",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-16",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 4823.08
+  },
+  {
+    "customer_id": 226,
+    "customer_name": "Drew Silva",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-09",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4425.34
+  },
+  {
+    "customer_id": 227,
+    "customer_name": "Hayden Garcia",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-09",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6763.56
+  },
+  {
+    "customer_id": 228,
+    "customer_name": "Cameron Andersson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-04",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2259.43
+  },
+  {
+    "customer_id": 229,
+    "customer_name": "Skyler Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-18",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2187.85
+  },
+  {
+    "customer_id": 230,
+    "customer_name": "Blake Andersson",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-26",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5513.14
+  },
+  {
+    "customer_id": 231,
+    "customer_name": "Harper Kowalski",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-28",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5617.89
+  },
+  {
+    "customer_id": 232,
+    "customer_name": "Taylor Patel",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-27",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5783.62
+  },
+  {
+    "customer_id": 233,
+    "customer_name": "Rowan Dubois",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-14",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6180.37
+  },
+  {
+    "customer_id": 234,
+    "customer_name": "Alex Silva",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-25",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3048.49
+  },
+  {
+    "customer_id": 235,
+    "customer_name": "Parker Botha",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-20",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 4255.45
+  },
+  {
+    "customer_id": 236,
+    "customer_name": "Dakota Kim",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-01",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 4563.97
+  },
+  {
+    "customer_id": 237,
+    "customer_name": "Blake Rossi",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-17",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 1097.03
+  },
+  {
+    "customer_id": 238,
+    "customer_name": "Finley Yamamoto",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-02",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5186.96
+  },
+  {
+    "customer_id": 239,
+    "customer_name": "Casey Garcia",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-22",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 1348.17
+  },
+  {
+    "customer_id": 240,
+    "customer_name": "Morgan Kim",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-11-21",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2809.68
+  },
+  {
+    "customer_id": 241,
+    "customer_name": "Rowan Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-19",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3847.73
+  },
+  {
+    "customer_id": 242,
+    "customer_name": "Blake Osei",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-05-07",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3802.22
+  },
+  {
+    "customer_id": 243,
+    "customer_name": "Morgan Novak",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-04-18",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5475.45
+  },
+  {
+    "customer_id": 244,
+    "customer_name": "Jordan Yamamoto",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-04",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 5726.44
+  },
+  {
+    "customer_id": 245,
+    "customer_name": "Avery Andersson",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-07-17",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4093.04
+  },
+  {
+    "customer_id": 246,
+    "customer_name": "Blake Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-14",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2432.45
+  },
+  {
+    "customer_id": 247,
+    "customer_name": "Jamie Kim",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-08",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3553.31
+  },
+  {
+    "customer_id": 248,
+    "customer_name": "Hayden Larsen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-12",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5718.86
+  },
+  {
+    "customer_id": 249,
+    "customer_name": "Avery Patel",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-24",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3091.25
+  },
+  {
+    "customer_id": 250,
+    "customer_name": "Jamie Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-01",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3689.79
+  },
+  {
+    "customer_id": 251,
+    "customer_name": "Skyler Patel",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-01",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 4785.91
+  },
+  {
+    "customer_id": 252,
+    "customer_name": "Casey Dubois",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-26",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2936.78
+  },
+  {
+    "customer_id": 253,
+    "customer_name": "Kendall Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-06",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3660.47
+  },
+  {
+    "customer_id": 254,
+    "customer_name": "Cameron Rossi",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-28",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7009.66
+  },
+  {
+    "customer_id": 255,
+    "customer_name": "Casey Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-09",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3583.41
+  },
+  {
+    "customer_id": 256,
+    "customer_name": "Harper Haddad",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-25",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3392.55
+  },
+  {
+    "customer_id": 257,
+    "customer_name": "Finley Fernandez",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-08-19",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 5720.31
+  },
+  {
+    "customer_id": 258,
+    "customer_name": "Parker Botha",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-06",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 1138.39
+  },
+  {
+    "customer_id": 259,
+    "customer_name": "Jordan Novak",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-24",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2670.82
+  },
+  {
+    "customer_id": 260,
+    "customer_name": "Harper Yamamoto",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-26",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 8216.13
+  },
+  {
+    "customer_id": 261,
+    "customer_name": "Skyler Costa",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-13",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3789.48
+  },
+  {
+    "customer_id": 262,
+    "customer_name": "Drew Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-09",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3454.74
+  },
+  {
+    "customer_id": 263,
+    "customer_name": "Sage Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-19",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2872.06
+  },
+  {
+    "customer_id": 264,
+    "customer_name": "Morgan Yamamoto",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-03",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3077.59
+  },
+  {
+    "customer_id": 265,
+    "customer_name": "Blake Alvarez",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-24",
+    "lifetime_order_count": 3,
+    "lifetime_revenue": 1928.64
+  },
+  {
+    "customer_id": 266,
+    "customer_name": "Emerson Rossi",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-11",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 6879.06
+  },
+  {
+    "customer_id": 267,
+    "customer_name": "Skyler Osei",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-24",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5626.8
+  },
+  {
+    "customer_id": 268,
+    "customer_name": "Casey Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-01",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5018.98
+  },
+  {
+    "customer_id": 269,
+    "customer_name": "Taylor Osei",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-22",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4414.11
+  },
+  {
+    "customer_id": 270,
+    "customer_name": "Casey Dubois",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-01",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2463.83
+  },
+  {
+    "customer_id": 271,
+    "customer_name": "Blake Rossi",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-18",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 7220.57
+  },
+  {
+    "customer_id": 272,
+    "customer_name": "Emerson Alvarez",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-03-12",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 5115.17
+  },
+  {
+    "customer_id": 273,
+    "customer_name": "Reese Andersson",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-02-08",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3323.34
+  },
+  {
+    "customer_id": 274,
+    "customer_name": "Casey Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-24",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3813.87
+  },
+  {
+    "customer_id": 275,
+    "customer_name": "Dakota Dubois",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-17",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3429.65
+  },
+  {
+    "customer_id": 276,
+    "customer_name": "Cameron Muller",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-03",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3380.0
+  },
+  {
+    "customer_id": 277,
+    "customer_name": "Drew Botha",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-10",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 2320.45
+  },
+  {
+    "customer_id": 278,
+    "customer_name": "Logan Silva",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-25",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5514.91
+  },
+  {
+    "customer_id": 279,
+    "customer_name": "Reese Rossi",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-29",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6794.77
+  },
+  {
+    "customer_id": 280,
+    "customer_name": "Cameron Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-15",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5130.24
+  },
+  {
+    "customer_id": 281,
+    "customer_name": "Alex Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-13",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 1958.08
+  },
+  {
+    "customer_id": 282,
+    "customer_name": "Skyler Johnson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-03",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7561.11
+  },
+  {
+    "customer_id": 283,
+    "customer_name": "Cameron Costa",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-12-12",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6030.51
+  },
+  {
+    "customer_id": 284,
+    "customer_name": "Riley Costa",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-10",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 6163.61
+  },
+  {
+    "customer_id": 285,
+    "customer_name": "Finley Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-01",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 1699.21
+  },
+  {
+    "customer_id": 286,
+    "customer_name": "Emerson Silva",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-30",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5713.74
+  },
+  {
+    "customer_id": 287,
+    "customer_name": "Dakota Osei",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-31",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2669.49
+  },
+  {
+    "customer_id": 288,
+    "customer_name": "Cameron Novak",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-14",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 6783.26
+  },
+  {
+    "customer_id": 289,
+    "customer_name": "Drew Garcia",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-07",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2386.73
+  },
+  {
+    "customer_id": 290,
+    "customer_name": "Casey Silva",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-13",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6568.76
+  },
+  {
+    "customer_id": 291,
+    "customer_name": "Harper Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-30",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 7248.04
+  },
+  {
+    "customer_id": 292,
+    "customer_name": "Blake Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-21",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3088.61
+  },
+  {
+    "customer_id": 293,
+    "customer_name": "Dakota Smith",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-18",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 8186.06
+  },
+  {
+    "customer_id": 294,
+    "customer_name": "Emerson Nguyen",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-05-22",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5088.07
+  },
+  {
+    "customer_id": 295,
+    "customer_name": "Cameron Osei",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-06",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2116.38
+  },
+  {
+    "customer_id": 296,
+    "customer_name": "Reese Kim",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-03",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5299.25
+  },
+  {
+    "customer_id": 297,
+    "customer_name": "Riley Costa",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-11",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4053.04
+  },
+  {
+    "customer_id": 298,
+    "customer_name": "Taylor Osei",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-01",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 1875.43
+  },
+  {
+    "customer_id": 299,
+    "customer_name": "Rowan Fernandez",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-19",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2771.19
+  },
+  {
+    "customer_id": 300,
+    "customer_name": "Parker Rossi",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-25",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4180.4
+  },
+  {
+    "customer_id": 301,
+    "customer_name": "Taylor Fernandez",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-20",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4044.91
+  },
+  {
+    "customer_id": 302,
+    "customer_name": "Dakota Andersson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-02",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6796.93
+  },
+  {
+    "customer_id": 303,
+    "customer_name": "Quinn Chen",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-08",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4716.92
+  },
+  {
+    "customer_id": 304,
+    "customer_name": "Taylor Johnson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-03",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3088.32
+  },
+  {
+    "customer_id": 305,
+    "customer_name": "Cameron Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-09",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6112.82
+  },
+  {
+    "customer_id": 306,
+    "customer_name": "Skyler Patel",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-01",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2765.27
+  },
+  {
+    "customer_id": 307,
+    "customer_name": "Hayden Kowalski",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-01",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4611.59
+  },
+  {
+    "customer_id": 308,
+    "customer_name": "Sage Smith",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-13",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6563.37
+  },
+  {
+    "customer_id": 309,
+    "customer_name": "Jordan Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-06",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4567.07
+  },
+  {
+    "customer_id": 310,
+    "customer_name": "Drew Costa",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-24",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 7054.88
+  },
+  {
+    "customer_id": 311,
+    "customer_name": "Parker Garcia",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-02-11",
+    "lifetime_order_count": 22,
+    "lifetime_revenue": 8367.57
+  },
+  {
+    "customer_id": 312,
+    "customer_name": "Hayden Chen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-01",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3570.6
+  },
+  {
+    "customer_id": 313,
+    "customer_name": "Casey Garcia",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-22",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2100.55
+  },
+  {
+    "customer_id": 314,
+    "customer_name": "Logan Smith",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-30",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2920.95
+  },
+  {
+    "customer_id": 315,
+    "customer_name": "Finley Haddad",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-21",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3122.42
+  },
+  {
+    "customer_id": 316,
+    "customer_name": "Rowan Osei",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-28",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3357.74
+  },
+  {
+    "customer_id": 317,
+    "customer_name": "Hayden Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-10",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 2343.73
+  },
+  {
+    "customer_id": 318,
+    "customer_name": "Blake Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-09",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2598.55
+  },
+  {
+    "customer_id": 319,
+    "customer_name": "Drew Patel",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-16",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3093.37
+  },
+  {
+    "customer_id": 320,
+    "customer_name": "Casey Andersson",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-06-21",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5371.35
+  },
+  {
+    "customer_id": 321,
+    "customer_name": "Kendall Tanaka",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-30",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6780.59
+  },
+  {
+    "customer_id": 322,
+    "customer_name": "Reese Dubois",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-07",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2352.31
+  },
+  {
+    "customer_id": 323,
+    "customer_name": "Casey Botha",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-12",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3548.17
+  },
+  {
+    "customer_id": 324,
+    "customer_name": "Sage Andersson",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-06",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4827.43
+  },
+  {
+    "customer_id": 325,
+    "customer_name": "Jamie Rossi",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-23",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 2932.26
+  },
+  {
+    "customer_id": 326,
+    "customer_name": "Casey Smith",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-17",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5050.73
+  },
+  {
+    "customer_id": 327,
+    "customer_name": "Sage Dubois",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-03-30",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5187.58
+  },
+  {
+    "customer_id": 328,
+    "customer_name": "Casey Costa",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-07",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3870.18
+  },
+  {
+    "customer_id": 329,
+    "customer_name": "Logan Costa",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-08-19",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6511.33
+  },
+  {
+    "customer_id": 330,
+    "customer_name": "Emerson Andersson",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-03-23",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3914.45
+  },
+  {
+    "customer_id": 331,
+    "customer_name": "Reese Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4362.04
+  },
+  {
+    "customer_id": 332,
+    "customer_name": "Reese Novak",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-10",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5283.5
+  },
+  {
+    "customer_id": 333,
+    "customer_name": "Finley Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-02",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7669.8
+  },
+  {
+    "customer_id": 334,
+    "customer_name": "Sage Osei",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-03-17",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4198.12
+  },
+  {
+    "customer_id": 335,
+    "customer_name": "Casey Silva",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-21",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3552.75
+  },
+  {
+    "customer_id": 336,
+    "customer_name": "Blake Kim",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-17",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3924.12
+  },
+  {
+    "customer_id": 337,
+    "customer_name": "Quinn Haddad",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-07",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4736.42
+  },
+  {
+    "customer_id": 338,
+    "customer_name": "Avery Haddad",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-09-03",
+    "lifetime_order_count": 17,
+    "lifetime_revenue": 6893.53
+  },
+  {
+    "customer_id": 339,
+    "customer_name": "Jordan Tanaka",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-27",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 6453.47
+  },
+  {
+    "customer_id": 340,
+    "customer_name": "Dakota Muller",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-15",
+    "lifetime_order_count": 4,
+    "lifetime_revenue": 1020.85
+  },
+  {
+    "customer_id": 341,
+    "customer_name": "Logan Larsen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-23",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 4092.07
+  },
+  {
+    "customer_id": 342,
+    "customer_name": "Jordan Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-25",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 7944.48
+  },
+  {
+    "customer_id": 343,
+    "customer_name": "Logan Novak",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-25",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4070.07
+  },
+  {
+    "customer_id": 344,
+    "customer_name": "Alex Silva",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-18",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 7331.96
+  },
+  {
+    "customer_id": 345,
+    "customer_name": "Parker Costa",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-27",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 2424.09
+  },
+  {
+    "customer_id": 346,
+    "customer_name": "Avery Kowalski",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-08",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2798.63
+  },
+  {
+    "customer_id": 347,
+    "customer_name": "Hayden Costa",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-29",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3825.37
+  },
+  {
+    "customer_id": 348,
+    "customer_name": "Drew Dubois",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-14",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2279.13
+  },
+  {
+    "customer_id": 349,
+    "customer_name": "Avery Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2997.84
+  },
+  {
+    "customer_id": 350,
+    "customer_name": "Drew Andersson",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-13",
+    "lifetime_order_count": 19,
+    "lifetime_revenue": 9792.41
+  },
+  {
+    "customer_id": 351,
+    "customer_name": "Kendall Botha",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-10",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 2002.86
+  },
+  {
+    "customer_id": 352,
+    "customer_name": "Taylor Fernandez",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-30",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4565.87
+  },
+  {
+    "customer_id": 353,
+    "customer_name": "Jordan Larsen",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-03-22",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6239.17
+  },
+  {
+    "customer_id": 354,
+    "customer_name": "Parker Nguyen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-24",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 914.13
+  },
+  {
+    "customer_id": 355,
+    "customer_name": "Avery Alvarez",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-11",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6799.84
+  },
+  {
+    "customer_id": 356,
+    "customer_name": "Casey Garcia",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-25",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3315.81
+  },
+  {
+    "customer_id": 357,
+    "customer_name": "Riley Botha",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-11-08",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6479.01
+  },
+  {
+    "customer_id": 358,
+    "customer_name": "Hayden Johnson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-17",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5054.42
+  },
+  {
+    "customer_id": 359,
+    "customer_name": "Jordan Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-26",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5459.68
+  },
+  {
+    "customer_id": 360,
+    "customer_name": "Jordan Rossi",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-13",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5530.94
+  },
+  {
+    "customer_id": 361,
+    "customer_name": "Harper Silva",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-17",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5260.89
+  },
+  {
+    "customer_id": 362,
+    "customer_name": "Reese Andersson",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-10",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2796.06
+  },
+  {
+    "customer_id": 363,
+    "customer_name": "Quinn Kim",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-19",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6584.34
+  },
+  {
+    "customer_id": 364,
+    "customer_name": "Parker Haddad",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-13",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3158.92
+  },
+  {
+    "customer_id": 365,
+    "customer_name": "Harper Yamamoto",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-19",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 1400.0
+  },
+  {
+    "customer_id": 366,
+    "customer_name": "Quinn Smith",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-14",
+    "lifetime_order_count": 3,
+    "lifetime_revenue": 1453.3
+  },
+  {
+    "customer_id": 367,
+    "customer_name": "Riley Dubois",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-25",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3623.67
+  },
+  {
+    "customer_id": 368,
+    "customer_name": "Skyler Botha",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-15",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 647.9
+  },
+  {
+    "customer_id": 369,
+    "customer_name": "Logan Osei",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-06-30",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4301.55
+  },
+  {
+    "customer_id": 370,
+    "customer_name": "Finley Garcia",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-24",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6353.22
+  },
+  {
+    "customer_id": 371,
+    "customer_name": "Quinn Larsen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-19",
+    "lifetime_order_count": 17,
+    "lifetime_revenue": 6691.46
+  },
+  {
+    "customer_id": 372,
+    "customer_name": "Rowan Andersson",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-11-29",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4926.73
+  },
+  {
+    "customer_id": 373,
+    "customer_name": "Drew Botha",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-12",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 7743.86
+  },
+  {
+    "customer_id": 374,
+    "customer_name": "Avery Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-06",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6099.42
+  },
+  {
+    "customer_id": 375,
+    "customer_name": "Jordan Costa",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-20",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5407.76
+  },
+  {
+    "customer_id": 376,
+    "customer_name": "Dakota Haddad",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-30",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6882.2
+  },
+  {
+    "customer_id": 377,
+    "customer_name": "Dakota Tanaka",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-18",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2585.93
+  },
+  {
+    "customer_id": 378,
+    "customer_name": "Morgan Nguyen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-06",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4723.82
+  },
+  {
+    "customer_id": 379,
+    "customer_name": "Blake Kim",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-26",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 1687.06
+  },
+  {
+    "customer_id": 380,
+    "customer_name": "Finley Chen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-20",
+    "lifetime_order_count": 17,
+    "lifetime_revenue": 7151.15
+  },
+  {
+    "customer_id": 381,
+    "customer_name": "Jamie Kim",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-11",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3051.44
+  },
+  {
+    "customer_id": 382,
+    "customer_name": "Riley Yamamoto",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-06-04",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3121.55
+  },
+  {
+    "customer_id": 383,
+    "customer_name": "Skyler Botha",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-01-20",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 1620.33
+  },
+  {
+    "customer_id": 384,
+    "customer_name": "Blake Kowalski",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-07-04",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5285.85
+  },
+  {
+    "customer_id": 385,
+    "customer_name": "Logan Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-08",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4323.81
+  },
+  {
+    "customer_id": 386,
+    "customer_name": "Avery Kim",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-05",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 7571.1
+  },
+  {
+    "customer_id": 387,
+    "customer_name": "Harper Nguyen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-18",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4887.63
+  },
+  {
+    "customer_id": 388,
+    "customer_name": "Finley Dubois",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-02",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3161.45
+  },
+  {
+    "customer_id": 389,
+    "customer_name": "Taylor Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-11-08",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3604.19
+  },
+  {
+    "customer_id": 390,
+    "customer_name": "Sage Osei",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-09-19",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3593.04
+  },
+  {
+    "customer_id": 391,
+    "customer_name": "Casey Rossi",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-02",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 5512.34
+  },
+  {
+    "customer_id": 392,
+    "customer_name": "Sage Andersson",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-01-21",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5185.9
+  },
+  {
+    "customer_id": 393,
+    "customer_name": "Hayden Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-11-15",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5247.29
+  },
+  {
+    "customer_id": 394,
+    "customer_name": "Emerson Fernandez",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-18",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 7253.09
+  },
+  {
+    "customer_id": 395,
+    "customer_name": "Casey Kowalski",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-07-02",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 3799.61
+  },
+  {
+    "customer_id": 396,
+    "customer_name": "Avery Andersson",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-19",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2891.93
+  },
+  {
+    "customer_id": 397,
+    "customer_name": "Jamie Larsen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-12",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 1493.48
+  },
+  {
+    "customer_id": 398,
+    "customer_name": "Drew Dubois",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-25",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2562.74
+  },
+  {
+    "customer_id": 399,
+    "customer_name": "Cameron Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-06",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4695.18
+  },
+  {
+    "customer_id": 400,
+    "customer_name": "Parker Costa",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-03",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 3708.29
+  },
+  {
+    "customer_id": 401,
+    "customer_name": "Jordan Nguyen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-23",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 4393.72
+  },
+  {
+    "customer_id": 402,
+    "customer_name": "Cameron Silva",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-05",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3132.22
+  },
+  {
+    "customer_id": 403,
+    "customer_name": "Drew Larsen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-09",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5070.9
+  },
+  {
+    "customer_id": 404,
+    "customer_name": "Blake Kowalski",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-07",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4595.19
+  },
+  {
+    "customer_id": 405,
+    "customer_name": "Rowan Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-05",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6866.99
+  },
+  {
+    "customer_id": 406,
+    "customer_name": "Riley Haddad",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-30",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 2885.47
+  },
+  {
+    "customer_id": 407,
+    "customer_name": "Skyler Costa",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-28",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6282.03
+  },
+  {
+    "customer_id": 408,
+    "customer_name": "Parker Andersson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-20",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3694.39
+  },
+  {
+    "customer_id": 409,
+    "customer_name": "Sage Dubois",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-26",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4043.15
+  },
+  {
+    "customer_id": 410,
+    "customer_name": "Morgan Silva",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-13",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 5293.86
+  },
+  {
+    "customer_id": 411,
+    "customer_name": "Jordan Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-07",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 4757.25
+  },
+  {
+    "customer_id": 412,
+    "customer_name": "Avery Johnson",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-05-22",
+    "lifetime_order_count": 4,
+    "lifetime_revenue": 2153.97
+  },
+  {
+    "customer_id": 413,
+    "customer_name": "Jamie Johnson",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-10-27",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3448.18
+  },
+  {
+    "customer_id": 414,
+    "customer_name": "Harper Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-12",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6081.54
+  },
+  {
+    "customer_id": 415,
+    "customer_name": "Sage Haddad",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-02",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 3316.47
+  },
+  {
+    "customer_id": 416,
+    "customer_name": "Jordan Garcia",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-06",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3799.75
+  },
+  {
+    "customer_id": 417,
+    "customer_name": "Kendall Novak",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-24",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4526.81
+  },
+  {
+    "customer_id": 418,
+    "customer_name": "Emerson Patel",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-08-22",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6239.56
+  },
+  {
+    "customer_id": 419,
+    "customer_name": "Dakota Garcia",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-01",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4791.77
+  },
+  {
+    "customer_id": 420,
+    "customer_name": "Jamie Andersson",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-04",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4165.03
+  },
+  {
+    "customer_id": 421,
+    "customer_name": "Finley Dubois",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-04-05",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 7197.62
+  },
+  {
+    "customer_id": 422,
+    "customer_name": "Kendall Costa",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-13",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 5423.92
+  },
+  {
+    "customer_id": 423,
+    "customer_name": "Rowan Andersson",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-07-15",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 4006.35
+  },
+  {
+    "customer_id": 424,
+    "customer_name": "Casey Chen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-21",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2869.35
+  },
+  {
+    "customer_id": 425,
+    "customer_name": "Jordan Patel",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-19",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 4931.88
+  },
+  {
+    "customer_id": 426,
+    "customer_name": "Finley Patel",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-03-25",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5308.55
+  },
+  {
+    "customer_id": 427,
+    "customer_name": "Skyler Johnson",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-05-08",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2964.21
+  },
+  {
+    "customer_id": 428,
+    "customer_name": "Cameron Rossi",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-05-08",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3151.63
+  },
+  {
+    "customer_id": 429,
+    "customer_name": "Harper Nguyen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-26",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4056.81
+  },
+  {
+    "customer_id": 430,
+    "customer_name": "Emerson Ivanova",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-10",
+    "lifetime_order_count": 5,
+    "lifetime_revenue": 3033.98
+  },
+  {
+    "customer_id": 431,
+    "customer_name": "Hayden Nguyen",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-08",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3211.66
+  },
+  {
+    "customer_id": 432,
+    "customer_name": "Cameron Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-23",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2267.86
+  },
+  {
+    "customer_id": 433,
+    "customer_name": "Harper Johnson",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-06-03",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2569.84
+  },
+  {
+    "customer_id": 434,
+    "customer_name": "Avery Garcia",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-30",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4063.26
+  },
+  {
+    "customer_id": 435,
+    "customer_name": "Skyler Osei",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-01-30",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5902.05
+  },
+  {
+    "customer_id": 436,
+    "customer_name": "Emerson Fernandez",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-09-07",
+    "lifetime_order_count": 16,
+    "lifetime_revenue": 8517.79
+  },
+  {
+    "customer_id": 437,
+    "customer_name": "Logan Patel",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-15",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5150.27
+  },
+  {
+    "customer_id": 438,
+    "customer_name": "Harper Fernandez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-12-30",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 4692.45
+  },
+  {
+    "customer_id": 439,
+    "customer_name": "Finley Dubois",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-29",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 5302.75
+  },
+  {
+    "customer_id": 440,
+    "customer_name": "Parker Botha",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-01-18",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5351.09
+  },
+  {
+    "customer_id": 441,
+    "customer_name": "Avery Silva",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2025-05-06",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5902.01
+  },
+  {
+    "customer_id": 442,
+    "customer_name": "Reese Yamamoto",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-11-18",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5727.9
+  },
+  {
+    "customer_id": 443,
+    "customer_name": "Skyler Novak",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-12",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2593.43
+  },
+  {
+    "customer_id": 444,
+    "customer_name": "Reese Kim",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-08-14",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4336.36
+  },
+  {
+    "customer_id": 445,
+    "customer_name": "Dakota Patel",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-24",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5128.91
+  },
+  {
+    "customer_id": 446,
+    "customer_name": "Dakota Haddad",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2025-02-10",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6844.68
+  },
+  {
+    "customer_id": 447,
+    "customer_name": "Jamie Dubois",
+    "region": "APAC",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-06-18",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3857.12
+  },
+  {
+    "customer_id": 448,
+    "customer_name": "Quinn Patel",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-26",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3300.91
+  },
+  {
+    "customer_id": 449,
+    "customer_name": "Avery Muller",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-12-31",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3533.18
+  },
+  {
+    "customer_id": 450,
+    "customer_name": "Avery Larsen",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-02",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3861.97
+  },
+  {
+    "customer_id": 451,
+    "customer_name": "Skyler Yamamoto",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-23",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3551.25
+  },
+  {
+    "customer_id": 452,
+    "customer_name": "Alex Dubois",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-11-05",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3413.93
+  },
+  {
+    "customer_id": 453,
+    "customer_name": "Harper Larsen",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-04-26",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6058.52
+  },
+  {
+    "customer_id": 454,
+    "customer_name": "Skyler Kowalski",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-10-05",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5114.38
+  },
+  {
+    "customer_id": 455,
+    "customer_name": "Hayden Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-13",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6375.93
+  },
+  {
+    "customer_id": 456,
+    "customer_name": "Riley Osei",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-08-12",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2505.42
+  },
+  {
+    "customer_id": 457,
+    "customer_name": "Rowan Novak",
+    "region": "EMEA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2025-04-28",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2094.06
+  },
+  {
+    "customer_id": 458,
+    "customer_name": "Jordan Nguyen",
+    "region": "APAC",
+    "plan_tier": "Growth",
+    "signup_date": "2024-10-23",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 6428.8
+  },
+  {
+    "customer_id": 459,
+    "customer_name": "Skyler Kowalski",
+    "region": "LATAM",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-01-13",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 3474.76
+  },
+  {
+    "customer_id": 460,
+    "customer_name": "Sage Novak",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-28",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 5336.71
+  },
+  {
+    "customer_id": 461,
+    "customer_name": "Quinn Chen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-10-18",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5441.06
+  },
+  {
+    "customer_id": 462,
+    "customer_name": "Hayden Silva",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-16",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 2654.12
+  },
+  {
+    "customer_id": 463,
+    "customer_name": "Reese Ivanova",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2026-04-21",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3054.18
+  },
+  {
+    "customer_id": 464,
+    "customer_name": "Rowan Osei",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-22",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3187.35
+  },
+  {
+    "customer_id": 465,
+    "customer_name": "Morgan Johnson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-03-17",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5818.06
+  },
+  {
+    "customer_id": 466,
+    "customer_name": "Alex Silva",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-05",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3332.44
+  },
+  {
+    "customer_id": 467,
+    "customer_name": "Skyler Kowalski",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-07-09",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4882.86
+  },
+  {
+    "customer_id": 468,
+    "customer_name": "Logan Muller",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-10-25",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 6308.36
+  },
+  {
+    "customer_id": 469,
+    "customer_name": "Reese Johnson",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-06-26",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 3963.21
+  },
+  {
+    "customer_id": 470,
+    "customer_name": "Reese Yamamoto",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-05-04",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3771.67
+  },
+  {
+    "customer_id": 471,
+    "customer_name": "Dakota Costa",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-19",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 6220.71
+  },
+  {
+    "customer_id": 472,
+    "customer_name": "Harper Patel",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-03-18",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2689.03
+  },
+  {
+    "customer_id": 473,
+    "customer_name": "Dakota Osei",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-17",
+    "lifetime_order_count": 6,
+    "lifetime_revenue": 3372.82
+  },
+  {
+    "customer_id": 474,
+    "customer_name": "Jamie Muller",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-28",
+    "lifetime_order_count": 8,
+    "lifetime_revenue": 1340.94
+  },
+  {
+    "customer_id": 475,
+    "customer_name": "Logan Andersson",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-10-28",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4933.76
+  },
+  {
+    "customer_id": 476,
+    "customer_name": "Jordan Dubois",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2024-12-06",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 3562.21
+  },
+  {
+    "customer_id": 477,
+    "customer_name": "Riley Rossi",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-02-01",
+    "lifetime_order_count": 13,
+    "lifetime_revenue": 6992.86
+  },
+  {
+    "customer_id": 478,
+    "customer_name": "Logan Ivanova",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-12-10",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 6543.75
+  },
+  {
+    "customer_id": 479,
+    "customer_name": "Finley Garcia",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-09-04",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4229.72
+  },
+  {
+    "customer_id": 480,
+    "customer_name": "Finley Ivanova",
+    "region": "NA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-05-25",
+    "lifetime_order_count": 12,
+    "lifetime_revenue": 5520.07
+  },
+  {
+    "customer_id": 481,
+    "customer_name": "Reese Alvarez",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-07-09",
+    "lifetime_order_count": 7,
+    "lifetime_revenue": 2774.87
+  },
+  {
+    "customer_id": 482,
+    "customer_name": "Parker Chen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-06-23",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4873.67
+  },
+  {
+    "customer_id": 483,
+    "customer_name": "Logan Smith",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2024-09-14",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6603.2
+  },
+  {
+    "customer_id": 484,
+    "customer_name": "Harper Garcia",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-21",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3957.14
+  },
+  {
+    "customer_id": 485,
+    "customer_name": "Hayden Alvarez",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2025-08-01",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5798.76
+  },
+  {
+    "customer_id": 486,
+    "customer_name": "Finley Tanaka",
+    "region": "LATAM",
+    "plan_tier": "Starter",
+    "signup_date": "2026-05-14",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 3495.53
+  },
+  {
+    "customer_id": 487,
+    "customer_name": "Blake Patel",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-07",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 6180.15
+  },
+  {
+    "customer_id": 488,
+    "customer_name": "Rowan Fernandez",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-02-19",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 7575.48
+  },
+  {
+    "customer_id": 489,
+    "customer_name": "Alex Nguyen",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-01-14",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 4652.43
+  },
+  {
+    "customer_id": 490,
+    "customer_name": "Emerson Dubois",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2025-03-16",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 5294.08
+  },
+  {
+    "customer_id": 491,
+    "customer_name": "Finley Andersson",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-10-29",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4716.37
+  },
+  {
+    "customer_id": 492,
+    "customer_name": "Jordan Botha",
+    "region": "LATAM",
+    "plan_tier": "Growth",
+    "signup_date": "2024-07-22",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 4091.77
+  },
+  {
+    "customer_id": 493,
+    "customer_name": "Avery Chen",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-09",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 5335.07
+  },
+  {
+    "customer_id": 494,
+    "customer_name": "Finley Costa",
+    "region": "NA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-08-20",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 4629.94
+  },
+  {
+    "customer_id": 495,
+    "customer_name": "Rowan Haddad",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2024-09-01",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3836.62
+  },
+  {
+    "customer_id": 496,
+    "customer_name": "Casey Fernandez",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2026-02-15",
+    "lifetime_order_count": 11,
+    "lifetime_revenue": 1891.99
+  },
+  {
+    "customer_id": 497,
+    "customer_name": "Skyler Ivanova",
+    "region": "APAC",
+    "plan_tier": "Starter",
+    "signup_date": "2024-11-29",
+    "lifetime_order_count": 9,
+    "lifetime_revenue": 3828.48
+  },
+  {
+    "customer_id": 498,
+    "customer_name": "Kendall Fernandez",
+    "region": "EMEA",
+    "plan_tier": "Starter",
+    "signup_date": "2025-04-13",
+    "lifetime_order_count": 15,
+    "lifetime_revenue": 7261.49
+  },
+  {
+    "customer_id": 499,
+    "customer_name": "Jordan Dubois",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2025-09-16",
+    "lifetime_order_count": 14,
+    "lifetime_revenue": 4739.23
+  },
+  {
+    "customer_id": 500,
+    "customer_name": "Blake Novak",
+    "region": "NA",
+    "plan_tier": "Enterprise",
+    "signup_date": "2026-04-25",
+    "lifetime_order_count": 10,
+    "lifetime_revenue": 5001.3
+  },
+  {
+    "customer_id": 144,
+    "customer_name": "Quinn Haddad",
+    "region": "EMEA",
+    "plan_tier": "Growth",
+    "signup_date": "2026-02-09",
+    "lifetime_order_count": 0,
+    "lifetime_revenue": 0.0
+  }
+]

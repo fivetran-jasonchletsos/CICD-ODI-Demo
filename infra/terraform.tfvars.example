@@ -1,0 +1,32 @@
+# Copy this file to terraform.tfvars and fill in real values. Never commit
+# terraform.tfvars itself - it holds secrets (.gitignore already excludes it
+# via the *.tfvars pattern... make sure to add your own copy, do not commit).
+
+# --- Fivetran ---
+fivetran_api_key    = "REPLACE_WITH_FIVETRAN_API_KEY"
+fivetran_api_secret = "REPLACE_WITH_FIVETRAN_API_SECRET"
+
+# Obtained by running scripts/create_mdls_destination.sh once per
+# environment (MDLS destination creation is REST-API-only; the fivetran
+# terraform provider cannot create it).
+fivetran_mdls_destination_id = "REPLACE_WITH_MDLS_DESTINATION_GROUP_ID"
+
+# External ID Fivetran gives you for the IAM role trust policies in
+# iam_mdls.tf and source_landing.tf.
+fivetran_s3_external_id = "REPLACE_WITH_FIVETRAN_EXTERNAL_ID"
+
+# --- AWS ---
+aws_region          = "us-west-2"
+mdls_bucket_name    = "jason-chletsos-cicd-odi-demo-mdls"
+source_bucket_name  = "jason-chletsos-cicd-odi-demo-landing"
+
+# --- Optional Snowflake consumer ("as needed", default off) ---
+enable_snowflake_consumer = false
+
+# Only required when enable_snowflake_consumer = true above.
+# (The provider requires organization_name alongside account_name.)
+snowflake_organization_name = ""
+snowflake_account           = ""
+snowflake_user              = ""
+snowflake_password          = ""
+snowflake_role              = ""

@@ -1,0 +1,56 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Node
+node_modules/
+app/dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# dbt
+transform/target/
+transform/dbt_packages/
+transform/logs/
+transform/.user.yml
+
+# DuckDB
+# transform/dev.duckdb is intentionally committed as a static snapshot
+# (the always-on, zero-cost Zone 3 consumer output) so the frontend and a
+# fresh clone have data with no dbt run required. Only stray/local duckdb
+# files elsewhere are ignored.
+*.duckdb
+*.duckdb.wal
+!transform/dev.duckdb
+
+# Frontend data snapshots are intentionally committed (refreshed by
+# dbt_run.yml on every scheduled run) - do not ignore app/public/data/*.json.
+
+# Terraform plan artifacts produced by terraform-plan.yml
+infra/tfplan.binary
+infra/tfplan.txt
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: orders
+    description: >
+      Raw orders-domain data. In the live ODI path this is what lands as
+      Iceberg tables in the MDLS bronze Glue database
+      (jason_chletsos_cicd_bronze) after Fivetran's S3 connector syncs the
+      landing bucket. For local/CI dbt runs it is loaded from CSV seeds into
+      DuckDB so the whole pipeline is reproducible with zero cloud
+      credentials.
+    schema: main
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: order_items
+        identifier: order_items

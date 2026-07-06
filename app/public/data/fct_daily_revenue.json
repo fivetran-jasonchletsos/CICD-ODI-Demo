@@ -1,0 +1,2198 @@
+[
+  {
+    "order_date": "2025-07-06",
+    "order_count": 13,
+    "revenue": 9300.81,
+    "avg_order_value": 715.446923076923
+  },
+  {
+    "order_date": "2025-07-07",
+    "order_count": 17,
+    "revenue": 5700.07,
+    "avg_order_value": 335.2982352941176
+  },
+  {
+    "order_date": "2025-07-08",
+    "order_count": 7,
+    "revenue": 950.79,
+    "avg_order_value": 135.82714285714286
+  },
+  {
+    "order_date": "2025-07-09",
+    "order_count": 7,
+    "revenue": 3586.46,
+    "avg_order_value": 512.3514285714285
+  },
+  {
+    "order_date": "2025-07-10",
+    "order_count": 16,
+    "revenue": 9636.5,
+    "avg_order_value": 602.28125
+  },
+  {
+    "order_date": "2025-07-11",
+    "order_count": 17,
+    "revenue": 9611.06,
+    "avg_order_value": 565.3564705882353
+  },
+  {
+    "order_date": "2025-07-12",
+    "order_count": 16,
+    "revenue": 5770.64,
+    "avg_order_value": 360.665
+  },
+  {
+    "order_date": "2025-07-13",
+    "order_count": 7,
+    "revenue": 3702.22,
+    "avg_order_value": 528.8885714285714
+  },
+  {
+    "order_date": "2025-07-14",
+    "order_count": 14,
+    "revenue": 7737.01,
+    "avg_order_value": 552.6435714285715
+  },
+  {
+    "order_date": "2025-07-15",
+    "order_count": 13,
+    "revenue": 5382.73,
+    "avg_order_value": 414.0561538461538
+  },
+  {
+    "order_date": "2025-07-16",
+    "order_count": 12,
+    "revenue": 5935.49,
+    "avg_order_value": 494.62416666666667
+  },
+  {
+    "order_date": "2025-07-17",
+    "order_count": 13,
+    "revenue": 6148.51,
+    "avg_order_value": 472.9623076923077
+  },
+  {
+    "order_date": "2025-07-18",
+    "order_count": 13,
+    "revenue": 4464.22,
+    "avg_order_value": 343.4015384615385
+  },
+  {
+    "order_date": "2025-07-19",
+    "order_count": 15,
+    "revenue": 5770.06,
+    "avg_order_value": 384.6706666666667
+  },
+  {
+    "order_date": "2025-07-20",
+    "order_count": 12,
+    "revenue": 7826.65,
+    "avg_order_value": 652.2208333333333
+  },
+  {
+    "order_date": "2025-07-21",
+    "order_count": 13,
+    "revenue": 5200.86,
+    "avg_order_value": 400.06615384615384
+  },
+  {
+    "order_date": "2025-07-22",
+    "order_count": 10,
+    "revenue": 6525.84,
+    "avg_order_value": 652.5840000000001
+  },
+  {
+    "order_date": "2025-07-23",
+    "order_count": 15,
+    "revenue": 8514.16,
+    "avg_order_value": 567.6106666666667
+  },
+  {
+    "order_date": "2025-07-24",
+    "order_count": 9,
+    "revenue": 3779.6,
+    "avg_order_value": 419.9555555555555
+  },
+  {
+    "order_date": "2025-07-25",
+    "order_count": 5,
+    "revenue": 2601.76,
+    "avg_order_value": 520.3520000000001
+  },
+  {
+    "order_date": "2025-07-26",
+    "order_count": 18,
+    "revenue": 4886.06,
+    "avg_order_value": 271.4477777777778
+  },
+  {
+    "order_date": "2025-07-27",
+    "order_count": 14,
+    "revenue": 6982.91,
+    "avg_order_value": 498.7792857142857
+  },
+  {
+    "order_date": "2025-07-28",
+    "order_count": 17,
+    "revenue": 8666.79,
+    "avg_order_value": 509.8111764705883
+  },
+  {
+    "order_date": "2025-07-29",
+    "order_count": 20,
+    "revenue": 7774.09,
+    "avg_order_value": 388.7045
+  },
+  {
+    "order_date": "2025-07-30",
+    "order_count": 11,
+    "revenue": 4937.38,
+    "avg_order_value": 448.8527272727273
+  },
+  {
+    "order_date": "2025-07-31",
+    "order_count": 14,
+    "revenue": 6047.04,
+    "avg_order_value": 431.93142857142857
+  },
+  {
+    "order_date": "2025-08-01",
+    "order_count": 8,
+    "revenue": 2424.67,
+    "avg_order_value": 303.08375
+  },
+  {
+    "order_date": "2025-08-02",
+    "order_count": 20,
+    "revenue": 7622.37,
+    "avg_order_value": 381.1185
+  },
+  {
+    "order_date": "2025-08-03",
+    "order_count": 12,
+    "revenue": 4802.83,
+    "avg_order_value": 400.23583333333335
+  },
+  {
+    "order_date": "2025-08-04",
+    "order_count": 9,
+    "revenue": 5225.08,
+    "avg_order_value": 580.5644444444445
+  },
+  {
+    "order_date": "2025-08-05",
+    "order_count": 12,
+    "revenue": 5143.13,
+    "avg_order_value": 428.5941666666667
+  },
+  {
+    "order_date": "2025-08-06",
+    "order_count": 8,
+    "revenue": 3312.18,
+    "avg_order_value": 414.0225
+  },
+  {
+    "order_date": "2025-08-07",
+    "order_count": 20,
+    "revenue": 7710.32,
+    "avg_order_value": 385.51599999999996
+  },
+  {
+    "order_date": "2025-08-08",
+    "order_count": 15,
+    "revenue": 6699.69,
+    "avg_order_value": 446.64599999999996
+  },
+  {
+    "order_date": "2025-08-09",
+    "order_count": 17,
+    "revenue": 7208.38,
+    "avg_order_value": 424.02235294117645
+  },
+  {
+    "order_date": "2025-08-10",
+    "order_count": 16,
+    "revenue": 9013.24,
+    "avg_order_value": 563.3275
+  },
+  {
+    "order_date": "2025-08-11",
+    "order_count": 15,
+    "revenue": 7577.65,
+    "avg_order_value": 505.1766666666666
+  },
+  {
+    "order_date": "2025-08-12",
+    "order_count": 12,
+    "revenue": 5118.63,
+    "avg_order_value": 426.5525
+  },
+  {
+    "order_date": "2025-08-13",
+    "order_count": 16,
+    "revenue": 8570.01,
+    "avg_order_value": 535.625625
+  },
+  {
+    "order_date": "2025-08-14",
+    "order_count": 14,
+    "revenue": 4680.18,
+    "avg_order_value": 334.29857142857145
+  },
+  {
+    "order_date": "2025-08-15",
+    "order_count": 15,
+    "revenue": 7079.51,
+    "avg_order_value": 471.96733333333333
+  },
+  {
+    "order_date": "2025-08-16",
+    "order_count": 11,
+    "revenue": 5405.68,
+    "avg_order_value": 491.42545454545456
+  },
+  {
+    "order_date": "2025-08-17",
+    "order_count": 16,
+    "revenue": 8136.14,
+    "avg_order_value": 508.50875
+  },
+  {
+    "order_date": "2025-08-18",
+    "order_count": 10,
+    "revenue": 3415.96,
+    "avg_order_value": 341.596
+  },
+  {
+    "order_date": "2025-08-19",
+    "order_count": 14,
+    "revenue": 3653.65,
+    "avg_order_value": 260.975
+  },
+  {
+    "order_date": "2025-08-20",
+    "order_count": 14,
+    "revenue": 5244.79,
+    "avg_order_value": 374.6278571428571
+  },
+  {
+    "order_date": "2025-08-21",
+    "order_count": 19,
+    "revenue": 11211.76,
+    "avg_order_value": 590.0926315789474
+  },
+  {
+    "order_date": "2025-08-22",
+    "order_count": 16,
+    "revenue": 6439.14,
+    "avg_order_value": 402.44625
+  },
+  {
+    "order_date": "2025-08-23",
+    "order_count": 11,
+    "revenue": 2899.02,
+    "avg_order_value": 263.54727272727274
+  },
+  {
+    "order_date": "2025-08-24",
+    "order_count": 12,
+    "revenue": 6760.32,
+    "avg_order_value": 563.36
+  },
+  {
+    "order_date": "2025-08-25",
+    "order_count": 8,
+    "revenue": 3402.76,
+    "avg_order_value": 425.345
+  },
+  {
+    "order_date": "2025-08-26",
+    "order_count": 17,
+    "revenue": 6078.81,
+    "avg_order_value": 357.57705882352946
+  },
+  {
+    "order_date": "2025-08-27",
+    "order_count": 9,
+    "revenue": 5543.48,
+    "avg_order_value": 615.9422222222222
+  },
+  {
+    "order_date": "2025-08-28",
+    "order_count": 6,
+    "revenue": 2814.95,
+    "avg_order_value": 469.1583333333333
+  },
+  {
+    "order_date": "2025-08-29",
+    "order_count": 24,
+    "revenue": 8375.34,
+    "avg_order_value": 348.9725
+  },
+  {
+    "order_date": "2025-08-30",
+    "order_count": 9,
+    "revenue": 4839.27,
+    "avg_order_value": 537.6966666666667
+  },
+  {
+    "order_date": "2025-08-31",
+    "order_count": 7,
+    "revenue": 2234.45,
+    "avg_order_value": 319.20714285714286
+  },
+  {
+    "order_date": "2025-09-01",
+    "order_count": 13,
+    "revenue": 6207.94,
+    "avg_order_value": 477.5338461538461
+  },
+  {
+    "order_date": "2025-09-02",
+    "order_count": 13,
+    "revenue": 5443.09,
+    "avg_order_value": 418.6992307692308
+  },
+  {
+    "order_date": "2025-09-03",
+    "order_count": 11,
+    "revenue": 4391.16,
+    "avg_order_value": 399.1963636363636
+  },
+  {
+    "order_date": "2025-09-04",
+    "order_count": 21,
+    "revenue": 6309.07,
+    "avg_order_value": 300.4319047619048
+  },
+  {
+    "order_date": "2025-09-05",
+    "order_count": 20,
+    "revenue": 9650.21,
+    "avg_order_value": 482.5105
+  },
+  {
+    "order_date": "2025-09-06",
+    "order_count": 4,
+    "revenue": 1810.53,
+    "avg_order_value": 452.6325
+  },
+  {
+    "order_date": "2025-09-07",
+    "order_count": 22,
+    "revenue": 7604.9,
+    "avg_order_value": 345.67727272727274
+  },
+  {
+    "order_date": "2025-09-08",
+    "order_count": 8,
+    "revenue": 4285.24,
+    "avg_order_value": 535.655
+  },
+  {
+    "order_date": "2025-09-09",
+    "order_count": 9,
+    "revenue": 3923.9,
+    "avg_order_value": 435.9888888888889
+  },
+  {
+    "order_date": "2025-09-10",
+    "order_count": 15,
+    "revenue": 7395.93,
+    "avg_order_value": 493.062
+  },
+  {
+    "order_date": "2025-09-11",
+    "order_count": 15,
+    "revenue": 8196.91,
+    "avg_order_value": 546.4606666666666
+  },
+  {
+    "order_date": "2025-09-12",
+    "order_count": 16,
+    "revenue": 8439.94,
+    "avg_order_value": 527.49625
+  },
+  {
+    "order_date": "2025-09-13",
+    "order_count": 11,
+    "revenue": 5716.13,
+    "avg_order_value": 519.6481818181818
+  },
+  {
+    "order_date": "2025-09-14",
+    "order_count": 17,
+    "revenue": 8164.39,
+    "avg_order_value": 480.25823529411764
+  },
+  {
+    "order_date": "2025-09-15",
+    "order_count": 16,
+    "revenue": 8639.48,
+    "avg_order_value": 539.9675
+  },
+  {
+    "order_date": "2025-09-16",
+    "order_count": 12,
+    "revenue": 7541.08,
+    "avg_order_value": 628.4233333333333
+  },
+  {
+    "order_date": "2025-09-17",
+    "order_count": 9,
+    "revenue": 3874.79,
+    "avg_order_value": 430.53222222222223
+  },
+  {
+    "order_date": "2025-09-18",
+    "order_count": 16,
+    "revenue": 7032.22,
+    "avg_order_value": 439.51375
+  },
+  {
+    "order_date": "2025-09-19",
+    "order_count": 14,
+    "revenue": 6681.94,
+    "avg_order_value": 477.28142857142853
+  },
+  {
+    "order_date": "2025-09-20",
+    "order_count": 21,
+    "revenue": 8176.18,
+    "avg_order_value": 389.3419047619048
+  },
+  {
+    "order_date": "2025-09-21",
+    "order_count": 14,
+    "revenue": 7411.65,
+    "avg_order_value": 529.4035714285714
+  },
+  {
+    "order_date": "2025-09-22",
+    "order_count": 12,
+    "revenue": 7482.43,
+    "avg_order_value": 623.5358333333334
+  },
+  {
+    "order_date": "2025-09-23",
+    "order_count": 12,
+    "revenue": 3650.42,
+    "avg_order_value": 304.20166666666665
+  },
+  {
+    "order_date": "2025-09-24",
+    "order_count": 14,
+    "revenue": 5051.97,
+    "avg_order_value": 360.855
+  },
+  {
+    "order_date": "2025-09-25",
+    "order_count": 13,
+    "revenue": 6764.22,
+    "avg_order_value": 520.3246153846154
+  },
+  {
+    "order_date": "2025-09-26",
+    "order_count": 16,
+    "revenue": 8542.88,
+    "avg_order_value": 533.93
+  },
+  {
+    "order_date": "2025-09-27",
+    "order_count": 8,
+    "revenue": 4178.55,
+    "avg_order_value": 522.31875
+  },
+  {
+    "order_date": "2025-09-28",
+    "order_count": 8,
+    "revenue": 5504.02,
+    "avg_order_value": 688.0025
+  },
+  {
+    "order_date": "2025-09-29",
+    "order_count": 15,
+    "revenue": 9100.08,
+    "avg_order_value": 606.672
+  },
+  {
+    "order_date": "2025-09-30",
+    "order_count": 16,
+    "revenue": 6263.75,
+    "avg_order_value": 391.484375
+  },
+  {
+    "order_date": "2025-10-01",
+    "order_count": 13,
+    "revenue": 5441.09,
+    "avg_order_value": 418.54538461538465
+  },
+  {
+    "order_date": "2025-10-02",
+    "order_count": 11,
+    "revenue": 5215.34,
+    "avg_order_value": 474.1218181818182
+  },
+  {
+    "order_date": "2025-10-03",
+    "order_count": 11,
+    "revenue": 4495.21,
+    "avg_order_value": 408.6554545454546
+  },
+  {
+    "order_date": "2025-10-04",
+    "order_count": 20,
+    "revenue": 9310.02,
+    "avg_order_value": 465.50100000000003
+  },
+  {
+    "order_date": "2025-10-05",
+    "order_count": 13,
+    "revenue": 3129.1,
+    "avg_order_value": 240.7
+  },
+  {
+    "order_date": "2025-10-06",
+    "order_count": 10,
+    "revenue": 2080.03,
+    "avg_order_value": 208.00300000000001
+  },
+  {
+    "order_date": "2025-10-07",
+    "order_count": 16,
+    "revenue": 5818.42,
+    "avg_order_value": 363.65125
+  },
+  {
+    "order_date": "2025-10-08",
+    "order_count": 11,
+    "revenue": 4752.16,
+    "avg_order_value": 432.01454545454544
+  },
+  {
+    "order_date": "2025-10-09",
+    "order_count": 14,
+    "revenue": 7734.16,
+    "avg_order_value": 552.4399999999999
+  },
+  {
+    "order_date": "2025-10-10",
+    "order_count": 21,
+    "revenue": 11413.94,
+    "avg_order_value": 543.5209523809524
+  },
+  {
+    "order_date": "2025-10-11",
+    "order_count": 13,
+    "revenue": 5387.89,
+    "avg_order_value": 414.45307692307694
+  },
+  {
+    "order_date": "2025-10-12",
+    "order_count": 12,
+    "revenue": 6067.06,
+    "avg_order_value": 505.58833333333337
+  },
+  {
+    "order_date": "2025-10-13",
+    "order_count": 13,
+    "revenue": 10044.02,
+    "avg_order_value": 772.6169230769231
+  },
+  {
+    "order_date": "2025-10-14",
+    "order_count": 12,
+    "revenue": 6088.43,
+    "avg_order_value": 507.3691666666667
+  },
+  {
+    "order_date": "2025-10-15",
+    "order_count": 5,
+    "revenue": 2358.42,
+    "avg_order_value": 471.684
+  },
+  {
+    "order_date": "2025-10-16",
+    "order_count": 16,
+    "revenue": 5580.19,
+    "avg_order_value": 348.761875
+  },
+  {
+    "order_date": "2025-10-17",
+    "order_count": 14,
+    "revenue": 5610.11,
+    "avg_order_value": 400.72214285714284
+  },
+  {
+    "order_date": "2025-10-18",
+    "order_count": 11,
+    "revenue": 6106.78,
+    "avg_order_value": 555.1618181818181
+  },
+  {
+    "order_date": "2025-10-19",
+    "order_count": 11,
+    "revenue": 5935.27,
+    "avg_order_value": 539.57
+  },
+  {
+    "order_date": "2025-10-20",
+    "order_count": 10,
+    "revenue": 5243.51,
+    "avg_order_value": 524.351
+  },
+  {
+    "order_date": "2025-10-21",
+    "order_count": 13,
+    "revenue": 6857.24,
+    "avg_order_value": 527.48
+  },
+  {
+    "order_date": "2025-10-22",
+    "order_count": 11,
+    "revenue": 4476.67,
+    "avg_order_value": 406.97
+  },
+  {
+    "order_date": "2025-10-23",
+    "order_count": 11,
+    "revenue": 3030.68,
+    "avg_order_value": 275.5163636363636
+  },
+  {
+    "order_date": "2025-10-24",
+    "order_count": 11,
+    "revenue": 7189.69,
+    "avg_order_value": 653.6081818181818
+  },
+  {
+    "order_date": "2025-10-25",
+    "order_count": 12,
+    "revenue": 5026.79,
+    "avg_order_value": 418.89916666666664
+  },
+  {
+    "order_date": "2025-10-26",
+    "order_count": 16,
+    "revenue": 5641.73,
+    "avg_order_value": 352.608125
+  },
+  {
+    "order_date": "2025-10-27",
+    "order_count": 19,
+    "revenue": 8175.95,
+    "avg_order_value": 430.31315789473683
+  },
+  {
+    "order_date": "2025-10-28",
+    "order_count": 17,
+    "revenue": 9585.02,
+    "avg_order_value": 563.824705882353
+  },
+  {
+    "order_date": "2025-10-29",
+    "order_count": 21,
+    "revenue": 9205.76,
+    "avg_order_value": 438.3695238095238
+  },
+  {
+    "order_date": "2025-10-30",
+    "order_count": 10,
+    "revenue": 3212.38,
+    "avg_order_value": 321.238
+  },
+  {
+    "order_date": "2025-10-31",
+    "order_count": 15,
+    "revenue": 9263.02,
+    "avg_order_value": 617.5346666666667
+  },
+  {
+    "order_date": "2025-11-01",
+    "order_count": 9,
+    "revenue": 3608.44,
+    "avg_order_value": 400.9377777777778
+  },
+  {
+    "order_date": "2025-11-02",
+    "order_count": 10,
+    "revenue": 2790.47,
+    "avg_order_value": 279.04699999999997
+  },
+  {
+    "order_date": "2025-11-03",
+    "order_count": 16,
+    "revenue": 9364.72,
+    "avg_order_value": 585.295
+  },
+  {
+    "order_date": "2025-11-04",
+    "order_count": 14,
+    "revenue": 3805.05,
+    "avg_order_value": 271.7892857142857
+  },
+  {
+    "order_date": "2025-11-05",
+    "order_count": 14,
+    "revenue": 5035.88,
+    "avg_order_value": 359.7057142857143
+  },
+  {
+    "order_date": "2025-11-06",
+    "order_count": 18,
+    "revenue": 7188.0,
+    "avg_order_value": 399.3333333333333
+  },
+  {
+    "order_date": "2025-11-07",
+    "order_count": 16,
+    "revenue": 6541.73,
+    "avg_order_value": 408.858125
+  },
+  {
+    "order_date": "2025-11-08",
+    "order_count": 8,
+    "revenue": 4407.71,
+    "avg_order_value": 550.96375
+  },
+  {
+    "order_date": "2025-11-09",
+    "order_count": 13,
+    "revenue": 4487.91,
+    "avg_order_value": 345.2238461538461
+  },
+  {
+    "order_date": "2025-11-10",
+    "order_count": 20,
+    "revenue": 10056.15,
+    "avg_order_value": 502.8075
+  },
+  {
+    "order_date": "2025-11-11",
+    "order_count": 16,
+    "revenue": 7064.76,
+    "avg_order_value": 441.5475
+  },
+  {
+    "order_date": "2025-11-12",
+    "order_count": 14,
+    "revenue": 6998.92,
+    "avg_order_value": 499.92285714285714
+  },
+  {
+    "order_date": "2025-11-13",
+    "order_count": 12,
+    "revenue": 4910.03,
+    "avg_order_value": 409.1691666666666
+  },
+  {
+    "order_date": "2025-11-14",
+    "order_count": 10,
+    "revenue": 4421.8,
+    "avg_order_value": 442.18
+  },
+  {
+    "order_date": "2025-11-15",
+    "order_count": 16,
+    "revenue": 6504.17,
+    "avg_order_value": 406.510625
+  },
+  {
+    "order_date": "2025-11-16",
+    "order_count": 16,
+    "revenue": 5609.95,
+    "avg_order_value": 350.621875
+  },
+  {
+    "order_date": "2025-11-17",
+    "order_count": 16,
+    "revenue": 8066.35,
+    "avg_order_value": 504.146875
+  },
+  {
+    "order_date": "2025-11-18",
+    "order_count": 7,
+    "revenue": 2993.87,
+    "avg_order_value": 427.69571428571425
+  },
+  {
+    "order_date": "2025-11-19",
+    "order_count": 11,
+    "revenue": 7099.72,
+    "avg_order_value": 645.429090909091
+  },
+  {
+    "order_date": "2025-11-20",
+    "order_count": 18,
+    "revenue": 9008.04,
+    "avg_order_value": 500.4466666666667
+  },
+  {
+    "order_date": "2025-11-21",
+    "order_count": 11,
+    "revenue": 3523.74,
+    "avg_order_value": 320.34
+  },
+  {
+    "order_date": "2025-11-22",
+    "order_count": 9,
+    "revenue": 5020.49,
+    "avg_order_value": 557.8322222222222
+  },
+  {
+    "order_date": "2025-11-23",
+    "order_count": 10,
+    "revenue": 5068.0,
+    "avg_order_value": 506.8
+  },
+  {
+    "order_date": "2025-11-24",
+    "order_count": 23,
+    "revenue": 11784.47,
+    "avg_order_value": 512.3682608695652
+  },
+  {
+    "order_date": "2025-11-25",
+    "order_count": 14,
+    "revenue": 5687.76,
+    "avg_order_value": 406.2685714285714
+  },
+  {
+    "order_date": "2025-11-26",
+    "order_count": 20,
+    "revenue": 8867.73,
+    "avg_order_value": 443.38649999999996
+  },
+  {
+    "order_date": "2025-11-27",
+    "order_count": 12,
+    "revenue": 5779.64,
+    "avg_order_value": 481.6366666666667
+  },
+  {
+    "order_date": "2025-11-28",
+    "order_count": 19,
+    "revenue": 8297.84,
+    "avg_order_value": 436.7284210526316
+  },
+  {
+    "order_date": "2025-11-29",
+    "order_count": 10,
+    "revenue": 3594.57,
+    "avg_order_value": 359.457
+  },
+  {
+    "order_date": "2025-11-30",
+    "order_count": 11,
+    "revenue": 5755.27,
+    "avg_order_value": 523.2063636363637
+  },
+  {
+    "order_date": "2025-12-01",
+    "order_count": 13,
+    "revenue": 8530.37,
+    "avg_order_value": 656.1823076923077
+  },
+  {
+    "order_date": "2025-12-02",
+    "order_count": 9,
+    "revenue": 6622.07,
+    "avg_order_value": 735.7855555555556
+  },
+  {
+    "order_date": "2025-12-03",
+    "order_count": 10,
+    "revenue": 4554.13,
+    "avg_order_value": 455.413
+  },
+  {
+    "order_date": "2025-12-04",
+    "order_count": 7,
+    "revenue": 3398.14,
+    "avg_order_value": 485.4485714285714
+  },
+  {
+    "order_date": "2025-12-05",
+    "order_count": 14,
+    "revenue": 4982.18,
+    "avg_order_value": 355.87
+  },
+  {
+    "order_date": "2025-12-06",
+    "order_count": 19,
+    "revenue": 8284.51,
+    "avg_order_value": 436.02684210526314
+  },
+  {
+    "order_date": "2025-12-07",
+    "order_count": 14,
+    "revenue": 5606.74,
+    "avg_order_value": 400.4814285714286
+  },
+  {
+    "order_date": "2025-12-08",
+    "order_count": 15,
+    "revenue": 6094.91,
+    "avg_order_value": 406.32733333333334
+  },
+  {
+    "order_date": "2025-12-09",
+    "order_count": 12,
+    "revenue": 6164.01,
+    "avg_order_value": 513.6675
+  },
+  {
+    "order_date": "2025-12-10",
+    "order_count": 15,
+    "revenue": 5610.71,
+    "avg_order_value": 374.0473333333333
+  },
+  {
+    "order_date": "2025-12-11",
+    "order_count": 10,
+    "revenue": 2852.16,
+    "avg_order_value": 285.216
+  },
+  {
+    "order_date": "2025-12-12",
+    "order_count": 11,
+    "revenue": 6369.66,
+    "avg_order_value": 579.06
+  },
+  {
+    "order_date": "2025-12-13",
+    "order_count": 21,
+    "revenue": 11120.16,
+    "avg_order_value": 529.5314285714286
+  },
+  {
+    "order_date": "2025-12-14",
+    "order_count": 11,
+    "revenue": 2696.3,
+    "avg_order_value": 245.11818181818182
+  },
+  {
+    "order_date": "2025-12-15",
+    "order_count": 16,
+    "revenue": 4766.66,
+    "avg_order_value": 297.91625
+  },
+  {
+    "order_date": "2025-12-16",
+    "order_count": 10,
+    "revenue": 2556.55,
+    "avg_order_value": 255.65500000000003
+  },
+  {
+    "order_date": "2025-12-17",
+    "order_count": 17,
+    "revenue": 6774.39,
+    "avg_order_value": 398.4935294117647
+  },
+  {
+    "order_date": "2025-12-18",
+    "order_count": 16,
+    "revenue": 9597.28,
+    "avg_order_value": 599.83
+  },
+  {
+    "order_date": "2025-12-19",
+    "order_count": 20,
+    "revenue": 8872.92,
+    "avg_order_value": 443.646
+  },
+  {
+    "order_date": "2025-12-20",
+    "order_count": 13,
+    "revenue": 6173.85,
+    "avg_order_value": 474.9115384615385
+  },
+  {
+    "order_date": "2025-12-21",
+    "order_count": 10,
+    "revenue": 5219.18,
+    "avg_order_value": 521.918
+  },
+  {
+    "order_date": "2025-12-22",
+    "order_count": 20,
+    "revenue": 9695.88,
+    "avg_order_value": 484.794
+  },
+  {
+    "order_date": "2025-12-23",
+    "order_count": 7,
+    "revenue": 3545.88,
+    "avg_order_value": 506.55428571428575
+  },
+  {
+    "order_date": "2025-12-24",
+    "order_count": 10,
+    "revenue": 4781.56,
+    "avg_order_value": 478.15600000000006
+  },
+  {
+    "order_date": "2025-12-25",
+    "order_count": 15,
+    "revenue": 5456.78,
+    "avg_order_value": 363.7853333333333
+  },
+  {
+    "order_date": "2025-12-26",
+    "order_count": 6,
+    "revenue": 4464.18,
+    "avg_order_value": 744.0300000000001
+  },
+  {
+    "order_date": "2025-12-27",
+    "order_count": 14,
+    "revenue": 4831.02,
+    "avg_order_value": 345.0728571428572
+  },
+  {
+    "order_date": "2025-12-28",
+    "order_count": 17,
+    "revenue": 7176.78,
+    "avg_order_value": 422.16352941176467
+  },
+  {
+    "order_date": "2025-12-29",
+    "order_count": 8,
+    "revenue": 2611.94,
+    "avg_order_value": 326.4925
+  },
+  {
+    "order_date": "2025-12-30",
+    "order_count": 12,
+    "revenue": 7955.64,
+    "avg_order_value": 662.97
+  },
+  {
+    "order_date": "2025-12-31",
+    "order_count": 12,
+    "revenue": 5850.24,
+    "avg_order_value": 487.52
+  },
+  {
+    "order_date": "2026-01-01",
+    "order_count": 5,
+    "revenue": 2531.32,
+    "avg_order_value": 506.264
+  },
+  {
+    "order_date": "2026-01-02",
+    "order_count": 12,
+    "revenue": 5279.92,
+    "avg_order_value": 439.99333333333334
+  },
+  {
+    "order_date": "2026-01-03",
+    "order_count": 15,
+    "revenue": 7171.74,
+    "avg_order_value": 478.116
+  },
+  {
+    "order_date": "2026-01-04",
+    "order_count": 11,
+    "revenue": 4830.73,
+    "avg_order_value": 439.1572727272727
+  },
+  {
+    "order_date": "2026-01-05",
+    "order_count": 12,
+    "revenue": 4207.22,
+    "avg_order_value": 350.6016666666667
+  },
+  {
+    "order_date": "2026-01-06",
+    "order_count": 17,
+    "revenue": 7298.02,
+    "avg_order_value": 429.2952941176471
+  },
+  {
+    "order_date": "2026-01-07",
+    "order_count": 17,
+    "revenue": 5860.48,
+    "avg_order_value": 344.7341176470588
+  },
+  {
+    "order_date": "2026-01-08",
+    "order_count": 13,
+    "revenue": 6120.24,
+    "avg_order_value": 470.7876923076923
+  },
+  {
+    "order_date": "2026-01-09",
+    "order_count": 12,
+    "revenue": 7498.4,
+    "avg_order_value": 624.8666666666667
+  },
+  {
+    "order_date": "2026-01-10",
+    "order_count": 17,
+    "revenue": 6591.59,
+    "avg_order_value": 387.7405882352941
+  },
+  {
+    "order_date": "2026-01-11",
+    "order_count": 11,
+    "revenue": 5208.93,
+    "avg_order_value": 473.53909090909093
+  },
+  {
+    "order_date": "2026-01-12",
+    "order_count": 11,
+    "revenue": 3522.76,
+    "avg_order_value": 320.2509090909091
+  },
+  {
+    "order_date": "2026-01-13",
+    "order_count": 20,
+    "revenue": 11567.26,
+    "avg_order_value": 578.363
+  },
+  {
+    "order_date": "2026-01-14",
+    "order_count": 13,
+    "revenue": 4348.69,
+    "avg_order_value": 334.51461538461535
+  },
+  {
+    "order_date": "2026-01-15",
+    "order_count": 12,
+    "revenue": 3455.63,
+    "avg_order_value": 287.9691666666667
+  },
+  {
+    "order_date": "2026-01-16",
+    "order_count": 14,
+    "revenue": 5628.42,
+    "avg_order_value": 402.03000000000003
+  },
+  {
+    "order_date": "2026-01-17",
+    "order_count": 20,
+    "revenue": 9684.35,
+    "avg_order_value": 484.21750000000003
+  },
+  {
+    "order_date": "2026-01-18",
+    "order_count": 14,
+    "revenue": 8797.21,
+    "avg_order_value": 628.3721428571428
+  },
+  {
+    "order_date": "2026-01-19",
+    "order_count": 11,
+    "revenue": 5634.68,
+    "avg_order_value": 512.2436363636364
+  },
+  {
+    "order_date": "2026-01-20",
+    "order_count": 13,
+    "revenue": 4682.23,
+    "avg_order_value": 360.17153846153843
+  },
+  {
+    "order_date": "2026-01-21",
+    "order_count": 16,
+    "revenue": 9662.2,
+    "avg_order_value": 603.8875
+  },
+  {
+    "order_date": "2026-01-22",
+    "order_count": 10,
+    "revenue": 4773.89,
+    "avg_order_value": 477.389
+  },
+  {
+    "order_date": "2026-01-23",
+    "order_count": 20,
+    "revenue": 7854.92,
+    "avg_order_value": 392.746
+  },
+  {
+    "order_date": "2026-01-24",
+    "order_count": 18,
+    "revenue": 7602.25,
+    "avg_order_value": 422.34722222222223
+  },
+  {
+    "order_date": "2026-01-25",
+    "order_count": 19,
+    "revenue": 7887.88,
+    "avg_order_value": 415.1515789473684
+  },
+  {
+    "order_date": "2026-01-26",
+    "order_count": 10,
+    "revenue": 2999.39,
+    "avg_order_value": 299.93899999999996
+  },
+  {
+    "order_date": "2026-01-27",
+    "order_count": 11,
+    "revenue": 4630.04,
+    "avg_order_value": 420.9127272727273
+  },
+  {
+    "order_date": "2026-01-28",
+    "order_count": 19,
+    "revenue": 7787.64,
+    "avg_order_value": 409.8757894736842
+  },
+  {
+    "order_date": "2026-01-29",
+    "order_count": 16,
+    "revenue": 7109.02,
+    "avg_order_value": 444.31375
+  },
+  {
+    "order_date": "2026-01-30",
+    "order_count": 16,
+    "revenue": 6064.36,
+    "avg_order_value": 379.0225
+  },
+  {
+    "order_date": "2026-01-31",
+    "order_count": 13,
+    "revenue": 4591.39,
+    "avg_order_value": 353.18384615384616
+  },
+  {
+    "order_date": "2026-02-01",
+    "order_count": 15,
+    "revenue": 7581.69,
+    "avg_order_value": 505.44599999999997
+  },
+  {
+    "order_date": "2026-02-02",
+    "order_count": 16,
+    "revenue": 7261.23,
+    "avg_order_value": 453.826875
+  },
+  {
+    "order_date": "2026-02-03",
+    "order_count": 12,
+    "revenue": 4829.65,
+    "avg_order_value": 402.4708333333333
+  },
+  {
+    "order_date": "2026-02-04",
+    "order_count": 16,
+    "revenue": 8502.8,
+    "avg_order_value": 531.425
+  },
+  {
+    "order_date": "2026-02-05",
+    "order_count": 13,
+    "revenue": 5839.18,
+    "avg_order_value": 449.16769230769233
+  },
+  {
+    "order_date": "2026-02-06",
+    "order_count": 10,
+    "revenue": 4908.65,
+    "avg_order_value": 490.86499999999995
+  },
+  {
+    "order_date": "2026-02-07",
+    "order_count": 19,
+    "revenue": 7694.37,
+    "avg_order_value": 404.96684210526314
+  },
+  {
+    "order_date": "2026-02-08",
+    "order_count": 13,
+    "revenue": 6111.0,
+    "avg_order_value": 470.0769230769231
+  },
+  {
+    "order_date": "2026-02-09",
+    "order_count": 7,
+    "revenue": 3121.12,
+    "avg_order_value": 445.8742857142857
+  },
+  {
+    "order_date": "2026-02-10",
+    "order_count": 15,
+    "revenue": 6019.95,
+    "avg_order_value": 401.33
+  },
+  {
+    "order_date": "2026-02-11",
+    "order_count": 14,
+    "revenue": 6038.57,
+    "avg_order_value": 431.32642857142855
+  },
+  {
+    "order_date": "2026-02-12",
+    "order_count": 17,
+    "revenue": 6165.06,
+    "avg_order_value": 362.65058823529415
+  },
+  {
+    "order_date": "2026-02-13",
+    "order_count": 21,
+    "revenue": 10461.28,
+    "avg_order_value": 498.1561904761905
+  },
+  {
+    "order_date": "2026-02-14",
+    "order_count": 12,
+    "revenue": 6590.45,
+    "avg_order_value": 549.2041666666667
+  },
+  {
+    "order_date": "2026-02-15",
+    "order_count": 13,
+    "revenue": 4859.78,
+    "avg_order_value": 373.8292307692308
+  },
+  {
+    "order_date": "2026-02-16",
+    "order_count": 16,
+    "revenue": 6337.49,
+    "avg_order_value": 396.093125
+  },
+  {
+    "order_date": "2026-02-17",
+    "order_count": 17,
+    "revenue": 7055.07,
+    "avg_order_value": 415.0041176470588
+  },
+  {
+    "order_date": "2026-02-18",
+    "order_count": 12,
+    "revenue": 6263.56,
+    "avg_order_value": 521.9633333333334
+  },
+  {
+    "order_date": "2026-02-19",
+    "order_count": 14,
+    "revenue": 7919.44,
+    "avg_order_value": 565.6742857142857
+  },
+  {
+    "order_date": "2026-02-20",
+    "order_count": 9,
+    "revenue": 4427.08,
+    "avg_order_value": 491.8977777777778
+  },
+  {
+    "order_date": "2026-02-21",
+    "order_count": 13,
+    "revenue": 3106.14,
+    "avg_order_value": 238.93384615384613
+  },
+  {
+    "order_date": "2026-02-22",
+    "order_count": 15,
+    "revenue": 4035.51,
+    "avg_order_value": 269.034
+  },
+  {
+    "order_date": "2026-02-23",
+    "order_count": 19,
+    "revenue": 8157.89,
+    "avg_order_value": 429.3626315789474
+  },
+  {
+    "order_date": "2026-02-24",
+    "order_count": 18,
+    "revenue": 10587.74,
+    "avg_order_value": 588.2077777777778
+  },
+  {
+    "order_date": "2026-02-25",
+    "order_count": 15,
+    "revenue": 6827.74,
+    "avg_order_value": 455.18266666666665
+  },
+  {
+    "order_date": "2026-02-26",
+    "order_count": 13,
+    "revenue": 3506.29,
+    "avg_order_value": 269.7146153846154
+  },
+  {
+    "order_date": "2026-02-27",
+    "order_count": 8,
+    "revenue": 4112.11,
+    "avg_order_value": 514.01375
+  },
+  {
+    "order_date": "2026-02-28",
+    "order_count": 15,
+    "revenue": 9729.4,
+    "avg_order_value": 648.6266666666667
+  },
+  {
+    "order_date": "2026-03-01",
+    "order_count": 9,
+    "revenue": 4209.7,
+    "avg_order_value": 467.7444444444444
+  },
+  {
+    "order_date": "2026-03-02",
+    "order_count": 13,
+    "revenue": 4898.25,
+    "avg_order_value": 376.78846153846155
+  },
+  {
+    "order_date": "2026-03-03",
+    "order_count": 13,
+    "revenue": 5723.55,
+    "avg_order_value": 440.2730769230769
+  },
+  {
+    "order_date": "2026-03-04",
+    "order_count": 16,
+    "revenue": 6081.69,
+    "avg_order_value": 380.105625
+  },
+  {
+    "order_date": "2026-03-05",
+    "order_count": 15,
+    "revenue": 9917.69,
+    "avg_order_value": 661.1793333333334
+  },
+  {
+    "order_date": "2026-03-06",
+    "order_count": 10,
+    "revenue": 5076.85,
+    "avg_order_value": 507.68500000000006
+  },
+  {
+    "order_date": "2026-03-07",
+    "order_count": 14,
+    "revenue": 5673.86,
+    "avg_order_value": 405.2757142857143
+  },
+  {
+    "order_date": "2026-03-08",
+    "order_count": 17,
+    "revenue": 5657.75,
+    "avg_order_value": 332.80882352941177
+  },
+  {
+    "order_date": "2026-03-09",
+    "order_count": 11,
+    "revenue": 4229.85,
+    "avg_order_value": 384.5318181818182
+  },
+  {
+    "order_date": "2026-03-10",
+    "order_count": 9,
+    "revenue": 3558.93,
+    "avg_order_value": 395.43666666666667
+  },
+  {
+    "order_date": "2026-03-11",
+    "order_count": 10,
+    "revenue": 4771.18,
+    "avg_order_value": 477.11800000000005
+  },
+  {
+    "order_date": "2026-03-12",
+    "order_count": 18,
+    "revenue": 7438.49,
+    "avg_order_value": 413.2494444444444
+  },
+  {
+    "order_date": "2026-03-13",
+    "order_count": 14,
+    "revenue": 5573.27,
+    "avg_order_value": 398.09071428571434
+  },
+  {
+    "order_date": "2026-03-14",
+    "order_count": 25,
+    "revenue": 12935.83,
+    "avg_order_value": 517.4331999999999
+  },
+  {
+    "order_date": "2026-03-15",
+    "order_count": 12,
+    "revenue": 5472.44,
+    "avg_order_value": 456.03666666666663
+  },
+  {
+    "order_date": "2026-03-16",
+    "order_count": 15,
+    "revenue": 6360.25,
+    "avg_order_value": 424.01666666666665
+  },
+  {
+    "order_date": "2026-03-17",
+    "order_count": 12,
+    "revenue": 5134.97,
+    "avg_order_value": 427.9141666666667
+  },
+  {
+    "order_date": "2026-03-18",
+    "order_count": 12,
+    "revenue": 4860.06,
+    "avg_order_value": 405.00500000000005
+  },
+  {
+    "order_date": "2026-03-19",
+    "order_count": 10,
+    "revenue": 4846.91,
+    "avg_order_value": 484.691
+  },
+  {
+    "order_date": "2026-03-20",
+    "order_count": 12,
+    "revenue": 5429.37,
+    "avg_order_value": 452.4475
+  },
+  {
+    "order_date": "2026-03-21",
+    "order_count": 17,
+    "revenue": 9988.0,
+    "avg_order_value": 587.5294117647059
+  },
+  {
+    "order_date": "2026-03-22",
+    "order_count": 17,
+    "revenue": 9476.68,
+    "avg_order_value": 557.4517647058824
+  },
+  {
+    "order_date": "2026-03-23",
+    "order_count": 8,
+    "revenue": 5025.89,
+    "avg_order_value": 628.23625
+  },
+  {
+    "order_date": "2026-03-24",
+    "order_count": 10,
+    "revenue": 4440.13,
+    "avg_order_value": 444.01300000000003
+  },
+  {
+    "order_date": "2026-03-25",
+    "order_count": 17,
+    "revenue": 5437.01,
+    "avg_order_value": 319.8241176470588
+  },
+  {
+    "order_date": "2026-03-26",
+    "order_count": 11,
+    "revenue": 3029.32,
+    "avg_order_value": 275.3927272727273
+  },
+  {
+    "order_date": "2026-03-27",
+    "order_count": 16,
+    "revenue": 5991.04,
+    "avg_order_value": 374.44
+  },
+  {
+    "order_date": "2026-03-28",
+    "order_count": 10,
+    "revenue": 3695.34,
+    "avg_order_value": 369.534
+  },
+  {
+    "order_date": "2026-03-29",
+    "order_count": 17,
+    "revenue": 9713.98,
+    "avg_order_value": 571.4105882352941
+  },
+  {
+    "order_date": "2026-03-30",
+    "order_count": 19,
+    "revenue": 9416.82,
+    "avg_order_value": 495.6221052631579
+  },
+  {
+    "order_date": "2026-03-31",
+    "order_count": 20,
+    "revenue": 9874.89,
+    "avg_order_value": 493.74449999999996
+  },
+  {
+    "order_date": "2026-04-01",
+    "order_count": 10,
+    "revenue": 5450.79,
+    "avg_order_value": 545.079
+  },
+  {
+    "order_date": "2026-04-02",
+    "order_count": 16,
+    "revenue": 9304.24,
+    "avg_order_value": 581.515
+  },
+  {
+    "order_date": "2026-04-03",
+    "order_count": 20,
+    "revenue": 11515.52,
+    "avg_order_value": 575.7760000000001
+  },
+  {
+    "order_date": "2026-04-04",
+    "order_count": 12,
+    "revenue": 4484.06,
+    "avg_order_value": 373.6716666666667
+  },
+  {
+    "order_date": "2026-04-05",
+    "order_count": 16,
+    "revenue": 6163.11,
+    "avg_order_value": 385.194375
+  },
+  {
+    "order_date": "2026-04-06",
+    "order_count": 20,
+    "revenue": 9972.6,
+    "avg_order_value": 498.63
+  },
+  {
+    "order_date": "2026-04-07",
+    "order_count": 16,
+    "revenue": 7274.93,
+    "avg_order_value": 454.683125
+  },
+  {
+    "order_date": "2026-04-08",
+    "order_count": 10,
+    "revenue": 5400.15,
+    "avg_order_value": 540.015
+  },
+  {
+    "order_date": "2026-04-09",
+    "order_count": 13,
+    "revenue": 6483.68,
+    "avg_order_value": 498.74461538461543
+  },
+  {
+    "order_date": "2026-04-10",
+    "order_count": 5,
+    "revenue": 2594.06,
+    "avg_order_value": 518.812
+  },
+  {
+    "order_date": "2026-04-11",
+    "order_count": 12,
+    "revenue": 4751.96,
+    "avg_order_value": 395.99666666666667
+  },
+  {
+    "order_date": "2026-04-12",
+    "order_count": 13,
+    "revenue": 5455.25,
+    "avg_order_value": 419.63461538461536
+  },
+  {
+    "order_date": "2026-04-13",
+    "order_count": 19,
+    "revenue": 9607.23,
+    "avg_order_value": 505.6436842105263
+  },
+  {
+    "order_date": "2026-04-14",
+    "order_count": 18,
+    "revenue": 8977.58,
+    "avg_order_value": 498.75444444444446
+  },
+  {
+    "order_date": "2026-04-15",
+    "order_count": 14,
+    "revenue": 4488.97,
+    "avg_order_value": 320.6407142857143
+  },
+  {
+    "order_date": "2026-04-16",
+    "order_count": 15,
+    "revenue": 7190.08,
+    "avg_order_value": 479.33866666666665
+  },
+  {
+    "order_date": "2026-04-17",
+    "order_count": 12,
+    "revenue": 5045.44,
+    "avg_order_value": 420.4533333333333
+  },
+  {
+    "order_date": "2026-04-18",
+    "order_count": 16,
+    "revenue": 6481.68,
+    "avg_order_value": 405.105
+  },
+  {
+    "order_date": "2026-04-19",
+    "order_count": 12,
+    "revenue": 5842.53,
+    "avg_order_value": 486.8775
+  },
+  {
+    "order_date": "2026-04-20",
+    "order_count": 8,
+    "revenue": 2878.67,
+    "avg_order_value": 359.83375
+  },
+  {
+    "order_date": "2026-04-21",
+    "order_count": 16,
+    "revenue": 9003.94,
+    "avg_order_value": 562.74625
+  },
+  {
+    "order_date": "2026-04-22",
+    "order_count": 13,
+    "revenue": 3703.94,
+    "avg_order_value": 284.91846153846154
+  },
+  {
+    "order_date": "2026-04-23",
+    "order_count": 20,
+    "revenue": 9414.98,
+    "avg_order_value": 470.74899999999997
+  },
+  {
+    "order_date": "2026-04-24",
+    "order_count": 16,
+    "revenue": 7979.24,
+    "avg_order_value": 498.7025
+  },
+  {
+    "order_date": "2026-04-25",
+    "order_count": 13,
+    "revenue": 3760.15,
+    "avg_order_value": 289.2423076923077
+  },
+  {
+    "order_date": "2026-04-26",
+    "order_count": 14,
+    "revenue": 4917.0,
+    "avg_order_value": 351.2142857142857
+  },
+  {
+    "order_date": "2026-04-27",
+    "order_count": 18,
+    "revenue": 8382.36,
+    "avg_order_value": 465.6866666666667
+  },
+  {
+    "order_date": "2026-04-28",
+    "order_count": 7,
+    "revenue": 3994.11,
+    "avg_order_value": 570.5871428571429
+  },
+  {
+    "order_date": "2026-04-29",
+    "order_count": 13,
+    "revenue": 5782.77,
+    "avg_order_value": 444.82846153846157
+  },
+  {
+    "order_date": "2026-04-30",
+    "order_count": 14,
+    "revenue": 4653.52,
+    "avg_order_value": 332.39428571428573
+  },
+  {
+    "order_date": "2026-05-01",
+    "order_count": 15,
+    "revenue": 7079.74,
+    "avg_order_value": 471.98266666666666
+  },
+  {
+    "order_date": "2026-05-02",
+    "order_count": 16,
+    "revenue": 9352.53,
+    "avg_order_value": 584.533125
+  },
+  {
+    "order_date": "2026-05-03",
+    "order_count": 15,
+    "revenue": 8348.45,
+    "avg_order_value": 556.5633333333334
+  },
+  {
+    "order_date": "2026-05-04",
+    "order_count": 12,
+    "revenue": 7367.78,
+    "avg_order_value": 613.9816666666667
+  },
+  {
+    "order_date": "2026-05-05",
+    "order_count": 8,
+    "revenue": 3498.48,
+    "avg_order_value": 437.31
+  },
+  {
+    "order_date": "2026-05-06",
+    "order_count": 10,
+    "revenue": 5307.26,
+    "avg_order_value": 530.726
+  },
+  {
+    "order_date": "2026-05-07",
+    "order_count": 13,
+    "revenue": 4874.87,
+    "avg_order_value": 374.99
+  },
+  {
+    "order_date": "2026-05-08",
+    "order_count": 11,
+    "revenue": 3619.55,
+    "avg_order_value": 329.05
+  },
+  {
+    "order_date": "2026-05-09",
+    "order_count": 12,
+    "revenue": 6947.04,
+    "avg_order_value": 578.92
+  },
+  {
+    "order_date": "2026-05-10",
+    "order_count": 12,
+    "revenue": 5050.26,
+    "avg_order_value": 420.855
+  },
+  {
+    "order_date": "2026-05-11",
+    "order_count": 11,
+    "revenue": 5109.74,
+    "avg_order_value": 464.52181818181816
+  },
+  {
+    "order_date": "2026-05-12",
+    "order_count": 10,
+    "revenue": 3095.18,
+    "avg_order_value": 309.518
+  },
+  {
+    "order_date": "2026-05-13",
+    "order_count": 10,
+    "revenue": 3157.08,
+    "avg_order_value": 315.70799999999997
+  },
+  {
+    "order_date": "2026-05-14",
+    "order_count": 12,
+    "revenue": 4168.38,
+    "avg_order_value": 347.365
+  },
+  {
+    "order_date": "2026-05-15",
+    "order_count": 15,
+    "revenue": 6443.6,
+    "avg_order_value": 429.5733333333334
+  },
+  {
+    "order_date": "2026-05-16",
+    "order_count": 15,
+    "revenue": 5914.29,
+    "avg_order_value": 394.286
+  },
+  {
+    "order_date": "2026-05-17",
+    "order_count": 14,
+    "revenue": 6069.62,
+    "avg_order_value": 433.5442857142857
+  },
+  {
+    "order_date": "2026-05-18",
+    "order_count": 19,
+    "revenue": 11465.43,
+    "avg_order_value": 603.4436842105264
+  },
+  {
+    "order_date": "2026-05-19",
+    "order_count": 17,
+    "revenue": 9387.35,
+    "avg_order_value": 552.1970588235295
+  },
+  {
+    "order_date": "2026-05-20",
+    "order_count": 12,
+    "revenue": 3865.88,
+    "avg_order_value": 322.1566666666667
+  },
+  {
+    "order_date": "2026-05-21",
+    "order_count": 9,
+    "revenue": 4535.13,
+    "avg_order_value": 503.90333333333336
+  },
+  {
+    "order_date": "2026-05-22",
+    "order_count": 18,
+    "revenue": 8482.07,
+    "avg_order_value": 471.2261111111111
+  },
+  {
+    "order_date": "2026-05-23",
+    "order_count": 11,
+    "revenue": 5372.93,
+    "avg_order_value": 488.44818181818187
+  },
+  {
+    "order_date": "2026-05-24",
+    "order_count": 10,
+    "revenue": 5785.16,
+    "avg_order_value": 578.516
+  },
+  {
+    "order_date": "2026-05-25",
+    "order_count": 16,
+    "revenue": 8979.83,
+    "avg_order_value": 561.239375
+  },
+  {
+    "order_date": "2026-05-26",
+    "order_count": 12,
+    "revenue": 5419.93,
+    "avg_order_value": 451.66083333333336
+  },
+  {
+    "order_date": "2026-05-27",
+    "order_count": 12,
+    "revenue": 4969.58,
+    "avg_order_value": 414.13166666666666
+  },
+  {
+    "order_date": "2026-05-28",
+    "order_count": 18,
+    "revenue": 5086.83,
+    "avg_order_value": 282.6016666666667
+  },
+  {
+    "order_date": "2026-05-29",
+    "order_count": 14,
+    "revenue": 7845.19,
+    "avg_order_value": 560.3707142857143
+  },
+  {
+    "order_date": "2026-05-30",
+    "order_count": 10,
+    "revenue": 5971.99,
+    "avg_order_value": 597.199
+  },
+  {
+    "order_date": "2026-05-31",
+    "order_count": 13,
+    "revenue": 4718.86,
+    "avg_order_value": 362.98923076923074
+  },
+  {
+    "order_date": "2026-06-01",
+    "order_count": 12,
+    "revenue": 5786.43,
+    "avg_order_value": 482.20250000000004
+  },
+  {
+    "order_date": "2026-06-02",
+    "order_count": 16,
+    "revenue": 5987.54,
+    "avg_order_value": 374.22125
+  },
+  {
+    "order_date": "2026-06-03",
+    "order_count": 17,
+    "revenue": 9149.94,
+    "avg_order_value": 538.2317647058824
+  },
+  {
+    "order_date": "2026-06-04",
+    "order_count": 12,
+    "revenue": 7242.36,
+    "avg_order_value": 603.53
+  },
+  {
+    "order_date": "2026-06-05",
+    "order_count": 12,
+    "revenue": 5403.12,
+    "avg_order_value": 450.26
+  },
+  {
+    "order_date": "2026-06-06",
+    "order_count": 13,
+    "revenue": 6698.46,
+    "avg_order_value": 515.2661538461539
+  },
+  {
+    "order_date": "2026-06-07",
+    "order_count": 29,
+    "revenue": 12605.06,
+    "avg_order_value": 434.65724137931034
+  },
+  {
+    "order_date": "2026-06-08",
+    "order_count": 19,
+    "revenue": 7038.22,
+    "avg_order_value": 370.4326315789474
+  },
+  {
+    "order_date": "2026-06-09",
+    "order_count": 13,
+    "revenue": 3447.13,
+    "avg_order_value": 265.1638461538462
+  },
+  {
+    "order_date": "2026-06-10",
+    "order_count": 15,
+    "revenue": 9486.75,
+    "avg_order_value": 632.45
+  },
+  {
+    "order_date": "2026-06-11",
+    "order_count": 13,
+    "revenue": 8217.14,
+    "avg_order_value": 632.0876923076922
+  },
+  {
+    "order_date": "2026-06-12",
+    "order_count": 10,
+    "revenue": 3664.57,
+    "avg_order_value": 366.457
+  },
+  {
+    "order_date": "2026-06-13",
+    "order_count": 18,
+    "revenue": 9477.66,
+    "avg_order_value": 526.5366666666666
+  },
+  {
+    "order_date": "2026-06-14",
+    "order_count": 18,
+    "revenue": 9276.98,
+    "avg_order_value": 515.3877777777777
+  },
+  {
+    "order_date": "2026-06-15",
+    "order_count": 7,
+    "revenue": 3233.01,
+    "avg_order_value": 461.85857142857145
+  },
+  {
+    "order_date": "2026-06-16",
+    "order_count": 11,
+    "revenue": 2720.28,
+    "avg_order_value": 247.29818181818183
+  },
+  {
+    "order_date": "2026-06-17",
+    "order_count": 16,
+    "revenue": 9131.51,
+    "avg_order_value": 570.719375
+  },
+  {
+    "order_date": "2026-06-18",
+    "order_count": 17,
+    "revenue": 5574.29,
+    "avg_order_value": 327.89941176470586
+  },
+  {
+    "order_date": "2026-06-19",
+    "order_count": 9,
+    "revenue": 1816.94,
+    "avg_order_value": 201.88222222222223
+  },
+  {
+    "order_date": "2026-06-20",
+    "order_count": 11,
+    "revenue": 5402.18,
+    "avg_order_value": 491.10727272727274
+  },
+  {
+    "order_date": "2026-06-21",
+    "order_count": 22,
+    "revenue": 9343.04,
+    "avg_order_value": 424.6836363636364
+  },
+  {
+    "order_date": "2026-06-22",
+    "order_count": 16,
+    "revenue": 9982.45,
+    "avg_order_value": 623.903125
+  },
+  {
+    "order_date": "2026-06-23",
+    "order_count": 14,
+    "revenue": 4393.03,
+    "avg_order_value": 313.78785714285715
+  },
+  {
+    "order_date": "2026-06-24",
+    "order_count": 15,
+    "revenue": 9850.49,
+    "avg_order_value": 656.6993333333334
+  },
+  {
+    "order_date": "2026-06-25",
+    "order_count": 17,
+    "revenue": 5581.41,
+    "avg_order_value": 328.31823529411764
+  },
+  {
+    "order_date": "2026-06-26",
+    "order_count": 22,
+    "revenue": 11060.14,
+    "avg_order_value": 502.7336363636363
+  },
+  {
+    "order_date": "2026-06-27",
+    "order_count": 7,
+    "revenue": 3851.73,
+    "avg_order_value": 550.2471428571429
+  },
+  {
+    "order_date": "2026-06-28",
+    "order_count": 16,
+    "revenue": 8751.84,
+    "avg_order_value": 546.99
+  },
+  {
+    "order_date": "2026-06-29",
+    "order_count": 9,
+    "revenue": 5330.6,
+    "avg_order_value": 592.2888888888889
+  },
+  {
+    "order_date": "2026-06-30",
+    "order_count": 14,
+    "revenue": 4338.57,
+    "avg_order_value": 309.8978571428571
+  },
+  {
+    "order_date": "2026-07-01",
+    "order_count": 13,
+    "revenue": 6571.94,
+    "avg_order_value": 505.5338461538461
+  },
+  {
+    "order_date": "2026-07-02",
+    "order_count": 8,
+    "revenue": 4667.67,
+    "avg_order_value": 583.45875
+  },
+  {
+    "order_date": "2026-07-03",
+    "order_count": 14,
+    "revenue": 4849.94,
+    "avg_order_value": 346.4242857142857
+  },
+  {
+    "order_date": "2026-07-04",
+    "order_count": 10,
+    "revenue": 3711.72,
+    "avg_order_value": 371.17199999999997
+  },
+  {
+    "order_date": "2026-07-05",
+    "order_count": 16,
+    "revenue": 8009.43,
+    "avg_order_value": 500.589375
+  },
+  {
+    "order_date": "2026-07-06",
+    "order_count": 21,
+    "revenue": 6829.82,
+    "avg_order_value": 325.2295238095238
+  }
+]

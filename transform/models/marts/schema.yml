@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: One row per customer with lifetime order/revenue rollups.
+    columns:
+      - name: customer_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: region
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['NA', 'EMEA', 'APAC', 'LATAM']
+
+  - name: fct_orders
+    description: One row per order with order-level totals rolled up from order_items.
+    columns:
+      - name: order_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+      - name: order_total
+        tests:
+          - not_null
+
+  - name: fct_daily_revenue
+    description: One row per calendar day between the first and last order date, with revenue rolled up.
+    columns:
+      - name: order_date
+        description: Primary key (one row per calendar day).
+        tests:
+          - unique
+          - not_null

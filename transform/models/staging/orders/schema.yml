@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: stg_orders__customers
+    description: Cleaned, conformed customer records (staging layer over the customers seed/source).
+    columns:
+      - name: customer_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: region
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['NA', 'EMEA', 'APAC', 'LATAM']
+      - name: plan_tier
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Starter', 'Growth', 'Enterprise']
+
+  - name: stg_orders__orders
+    description: Cleaned, conformed order header records (staging layer over the orders seed/source).
+    columns:
+      - name: order_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders__customers')
+                field: customer_id
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['placed', 'shipped', 'delivered', 'cancelled']
+      - name: channel
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['web', 'mobile', 'partner']
+
+  - name: stg_orders__order_items
+    description: Cleaned, conformed order line-item records (staging layer over the order_items seed/source).
+    columns:
+      - name: order_item_id
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders__orders')
+                field: order_id

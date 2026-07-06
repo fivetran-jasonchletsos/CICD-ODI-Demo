@@ -1,0 +1,27 @@
+orders_pipeline:
+  target: dev
+  outputs:
+
+    # Zone 3 consumer: DuckDB — default, always-on, free. Builds a local file
+    # (transform/dev.duckdb) from the seed CSVs. This is the target used by CI
+    # (dbt_run.yml) and local dev, and requires zero cloud credentials.
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 4
+
+    # Zone 3 consumer: Snowflake, sitting on top of the SAME Iceberg tables
+    # that Fivetran's MDLS destination writes into S3/Glue (see infra/glue_lakehouse.tf
+    # and infra/snowflake_consumer.tf). Optional / "as needed" — only meaningfully
+    # exercised when an SE has run terraform with enable_snowflake_consumer=true
+    # and exported these env vars locally. Never used in CI.
+    snowflake:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT', '') }}"
+      user: "{{ env_var('SNOWFLAKE_USER', '') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD', '') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', '') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', '') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', '') }}"
+      schema: "{{ env_var('SNOWFLAKE_SCHEMA', '') }}"
+      threads: 4
